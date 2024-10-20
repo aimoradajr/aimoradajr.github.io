@@ -1,1 +1,10 @@
 theme: jekyll-theme-minimal
+title: "Ariel I. Morada Jr."
+description: "Software Engineer | Angular, NodeJS"
+navigation:
+  - name: "Home"
+    link: "/"
+  - name: "About"
+    link: "/about"
+  - name: "Contact"
+    link: "/contact"
