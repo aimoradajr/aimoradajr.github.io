@@ -11,11 +11,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+    
+    <!-- other meta tags and styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
     <div class="wrapper">
       <header>
-TEST
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
@@ -46,6 +48,26 @@ TEST
 
       </section>
       <footer>
+        <div class="social-links">
+          {% if site.github_url %}
+          <a href="{{ site.github_url }}" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          {% endif %}
+      
+          {% if site.linkedin_url %}
+          <a href="{{ site.linkedin_url }}" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          {% endif %}
+      
+          {% if site.codepen_url %}
+          <a href="{{ site.codepen_url }}" target="_blank">
+            <i class="fab fa-codepen"></i>
+          </a>
+          {% endif %}
+        </div>
+              
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
