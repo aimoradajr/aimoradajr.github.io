@@ -16,8 +16,8 @@
 
     <!-- other meta tags and styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/neobrutalismcss@latest" />
-    <link rel="stylesheet" href="https://unpkg.com/primeflex@3.1.2/primeflex.min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/neobrutalismcss@latest" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/primeflex@latest/primeflex.css">
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
   </head>
   <body>
@@ -25,22 +25,25 @@
       <header>
         
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img class="border-3 border-round-2xl" src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <h1 class="mb-1"><a href="{{ "/" | absolute_url }}" style="font-size: 2.2rem" class="font-bold text-black-alpha-90">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1 class="mb-1 text-center"><a href="{{ "/" | absolute_url }}" style="font-size: 2.1rem" class="font-bold text-black-alpha-90">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-        <p class="font-medium text-xl text-black-alpha-90">{{ site.description | default: site.github.project_tagline }}</p>
+        <p class="font-medium text-xl text-black-alpha-90 text-center">{{ site.description | default: site.github.project_tagline }}</p>
 
-        <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#professional-experience">Professional Experience</a></li>
-            <!-- <li><a href="#education">Education</a></li> -->
-          </ul>
-        </nav>
-
+        <div class="mt-4">
+          <nav id="nav-buttons">
+            <div class="flex flex-column">
+              <a href="#about" class="neo-brutal-button p-3 active-nav nav-hover-orange">About</a>
+              <a href="#skills" class="neo-brutal-button p-3 mt-2 nav-hover-orange">Skills</a>
+              <a href="#professional-experience" class="neo-brutal-button p-3 mt-2 nav-hover-orange">Professional Experience</a>
+              <a href="#projects" class="neo-brutal-button p-3 mt-2 nav-hover-orange">Projects</a>
+              <!-- <a href="#education" class="neo-brutal-button p-3 mt-2 nav-hover-orange">Education</a> -->
+            </div>
+          </nav>
+        </div>
+        
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
@@ -63,30 +66,36 @@
 
       </section>
       <footer>
-        <div class="social-links">
-          {% if site.email %}
-          <a href="mailto:{{ site.email }}">
-            <i class="fas fa-envelope"></i>
-          </a>
-          {% endif %}
-
-          {% if site.github_url %}
-          <a href="{{ site.github_url }}" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-          {% endif %}
-      
-          {% if site.linkedin_url %}
-          <a href="{{ site.linkedin_url }}" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          {% endif %}
-      
-          {% if site.codepen_url %}
-          <a href="{{ site.codepen_url }}" target="_blank">
-            <i class="fab fa-codepen"></i>
-          </a>
-          {% endif %}
+        <div class="mt-8">
+          <div class="flex flex-column social-links">
+            {% if site.email %}
+            <a href="mailto:{{ site.email }}" class="p-1 flex align-items-center bg-white hover-email">
+              <i class="fas fa-envelope"></i>
+              <span class="ml-2">{{ site.email_label }}</span>
+            </a>
+            {% endif %}
+        
+            {% if site.github_url %}
+            <a href="{{ site.github_url }}" target="_blank" class="p-1 mt-2 bg-white hover-github">
+              <i class="fab fa-github"></i>
+              <span class="ml-2">{{ site.github_label }}</span>
+            </a>
+            {% endif %}
+            
+            {% if site.linkedin_url %}
+            <a href="{{ site.linkedin_url }}" target="_blank" class="p-1 mt-2 bg-white hover-linkedin">
+              <i class="fab fa-linkedin"></i>
+              <span class="ml-2">{{ site.linkedin_label }}</span>
+            </a>
+            {% endif %}
+            
+            {% if site.codepen_url %}
+            <a href="{{ site.codepen_url }}" target="_blank" class="p-1 mt-2 bg-white hover-codepen">
+              <i class="fab fa-codepen"></i>
+              <span class="ml-2">{{ site.codepen_label }}</span>
+            </a>
+            {% endif %}
+          </div>
         </div>
               
         {% if site.github.is_project_page %}
@@ -94,7 +103,43 @@
         {% endif %}
         <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
       </footer>
+
+      <div class="fixed left-0 bottom-0 m-2">
+        <button id="playButton">Play Audio</button>
+        <audio id="audioPlayer" src="{{ '/assets/audio/gentle_waves.mp3' | relative_url }}" preload="auto"></audio>
+      </div>
     </div>
+
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    
+    <script>
+      // Get all buttons within the nav
+      const buttons = document.querySelectorAll('#nav-buttons .neo-brutal-button');
+
+      buttons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Remove 'active-nav' from all buttons
+          buttons.forEach(btn => btn.classList.remove('active-nav'));
+          
+          // Remove 'orange-1' from the clicked button and add 'active-nav'
+          // this.classList.remove('orange-1');
+          this.classList.add('active-nav');
+        });
+      });
+    </script>
+
+    <script>
+      document.getElementById('playButton').addEventListener('click', function() {
+        const audio = document.getElementById('audioPlayer');
+        if (audio.paused) {
+          audio.play();
+          this.textContent = 'Pause Audio'; // Change button text to "Pause"
+        } else {
+          audio.pause();
+          this.textContent = 'Play Audio'; // Change button text back to "Play"
+        }
+      });
+    </script>
+
   </body>
 </html>

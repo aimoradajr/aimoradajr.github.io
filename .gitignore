@@ -1,0 +1,9 @@
+// ignore .jekyll-cache directory and its contents
+.jekyll-cache/
+
+// ignore Gemfile
+Gemfile
+Gemfile.lock
+
+// ignore _site directory and its contents
+_site/

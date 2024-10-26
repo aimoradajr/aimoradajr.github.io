@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: "Ariel I. Morada Jr."
-logo: "/assets/images/skills-agile.png"
+# logo: "/assets/images/ariel-photo.jpg"
 description: "Software Engineer"
 navigation:
   - name: "Home"
@@ -10,6 +10,10 @@ navigation:
   - name: "Contact"
     link: "/contact"
 email: aimoradajr9@gmail.com
+email_label: aimoradajr9@gmail.com
 github_url: https://github.com/aimoradajr
+github_label: github/aimoradajr
 linkedin_url: https://www.linkedin.com/in/aimoradajr
+linkedin_label: linkedin/aimoradajr
 codepen_url: https://codepen.io/Ariel-Morada
+codepen_label: codepen

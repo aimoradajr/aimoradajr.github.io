@@ -1,6 +1,8 @@
 ---
 ---
 
+// include css from _paralax.scss
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,8 +12,7 @@ html {
 }
 
 header {
-  width: 360px;
-  padding-right: 20px;
+  width: 300px;
 }
 
 section {
@@ -20,59 +21,174 @@ section {
 
 body {
   color: black;
-  background-color: #f5f5f5; /* Light Dirty White */
-  font-family: "Inter", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // background-color: #f5f5f5; /* Light Dirty White */
+  // mute yellow background
+  background-color: #fff9e6;
+  font-family: "Inter", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 footer {
+  width: 300px;
   text-align: center;
-  padding: 20px;
-  background-color: #f4f4f4; /* Soft neutral background */
+  background-color: transparent; /* Soft neutral background */
 }
 
-.social-links a {
-  display: inline-block;
-  margin: 0 5px;
-  text-decoration: none;
+p {
+  margin-bottom: 0;
 }
 
-.social-links a i {
-  font-size: 20px; /* Make the icons large */
-  width: 40px; 
-  height: 40px;
+.am-card {
   background-color: #fff; /* Icon background color */
-  border-radius: 50%; /* Make the icons circular */
   display: flex;
-  align-items: center;
-  justify-content: center;
-  // box-shadow: 2px 2px 0px #000; /* Brutalist thick shadow */
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 4px 4px 0px #000; /* Brutalist thick shadow */
   border: 2px solid #000; /* Bold black border */
+}
+
+.am-card .card-thumbnail {
+  flex: 1; /* Takes up 50% of the card's width */
+  // max-width: 50%; /* Limits thumbnail width to 50% */
+}
+
+.am-card .card-thumbnail img {
+  width: 100%;
+  height: auto; /* Keeps the aspect ratio */
+  display: block;
+}
+
+.am-card .card-content {
+  flex: 1; /* Takes up the remaining 50% */
+  padding: 1rem; /* Spacing between thumbnail and content */
+}
+
+/* Social links container */
+.social-links a {
+  display: inline-flex; /* Align icon and text side-by-side */
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+  background-color: transparent;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 0 #000; /* Brutalist shadow */
+  border-radius: 1rem; /* Slight rounding */
+  padding: 10px 20px;
   transition: transform 0.2s ease-in-out;
 }
 
-.social-links a i:hover {
-  transform: translate(-3px, -3px); /* Create a rough hover effect */
+/* Hover effect for social links */
+.social-links a:hover {
+  // transform: translate(-3px, -3px); /* Neo-brutalist hover effect */
 }
 
-.social-links a i:active {
-  transform: translate(2px, 2px); /* Press-down effect */
+/* Icon styling */
+.social-links a i {
+  font-size: 20px; /* Icon size */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Individual icon colors (optional) */
+/* Optional individual icon colors */
 .social-links a i.fab.fa-github {
+  color: #000; /* CodePen black */
   // color: #333; /* GitHub dark color */
 }
 
 .social-links a i.fab.fa-linkedin {
+  color: #000; /* CodePen black */
   // color: #0e76a8; /* LinkedIn blue */
 }
 
 .social-links a i.fab.fa-codepen {
-  // color: #000; /* CodePen black */
+  color: #000; /* CodePen black */
 }
 
-footer p {
-  margin-top: 20px;
+.neo-brutal-button {
+  background-color: #fff;
   color: #000;
+  text-decoration: none;
   font-weight: bold;
+  font-size: 16px;
+  border: 2px solid #000; /* Hard border */
+  box-shadow: none; /* No shadow initially */
+  border-radius: 1rem; /* Slight rounding for Neo-Brutalist look */
+  display: inline-block; /* Ensures consistent button appearance */
+  // padding: 10px 20px; /* Adds padding for button size */
+  box-shadow: 2px 2px 0 #000; /* Shadow appears only on hover */
+  text-align: center;
+}
+
+.neo-brutal-button:hover {
+  color: #000;
+}
+
+.neo-brutal-button:focus {
+  color: #000;
+  // outline: none;
+  // border-color: #ff6347; /* Optional focus color */
+}
+
+// bg: orange
+.orange-1 {
+  background-color: #ffecc8; /* Muted Orange-Red */
+  // color: #000; /* Black text for contrast */
+}
+
+.orange-2 {
+  background-color: #ffecc8; /* Soft Terracotta */
+  // color: #000;
+}
+
+.orange-3 {
+  background-color: #ffd09b; /* Rusty Red */
+  // color: #fff; /* White text for better readability */
+}
+
+.orange-4 {
+  background-color: #fcbc74;
+}
+
+.orange-5 {
+  background-color: #ffb0b0;
+}
+
+// hover effects
+.hover-orange:hover {
+  background-color: #ffecc8 !important;
+}
+
+.hover-email:hover {
+  // use mute gmail logo color
+  background-color: #ffecc8 !important;
+}
+
+.hover-github:hover {
+  // use mute github logo color
+  background-color: #bacaff !important;
+}
+
+.hover-linkedin:hover {
+  // use mute linkedin logo color
+  background-color: #c8e6ff !important;
+}
+
+.hover-codepen:hover {
+  // use mute codepen logo color
+  background-color: #b1b1b1 !important;
+}
+
+// active nav
+.active-nav {
+  background-color: #ffd09b;
+}
+
+// hover effects
+.nav-hover-orange:not(.active-nav):hover {
+  background-color: #ffecc8 !important;
 }
