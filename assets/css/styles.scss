@@ -192,3 +192,11 @@ p {
 .nav-hover-orange:not(.active-nav):hover {
   background-color: #ffecc8 !important;
 }
+
+// audio
+.secret-play-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #f7dfb2;
+}

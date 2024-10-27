@@ -105,7 +105,9 @@
       </footer>
 
       <div class="fixed left-0 bottom-0 m-2">
-        <button id="playButton">Play Audio</button>
+        <button id="playButton" class="secret-play-button cursor-pointer">
+          <i class="fas fa-volume-up" id="icon"></i>
+        </button>
         <audio id="audioPlayer" src="{{ '/assets/audio/gentle_waves.mp3' | relative_url }}" preload="auto"></audio>
       </div>
     </div>
@@ -131,12 +133,16 @@
     <script>
       document.getElementById('playButton').addEventListener('click', function() {
         const audio = document.getElementById('audioPlayer');
+        const icon = document.getElementById('icon');
+        
         if (audio.paused) {
           audio.play();
-          this.textContent = 'Pause Audio'; // Change button text to "Pause"
+          icon.classList.remove('fa-volume-up');
+          icon.classList.add('fa-pause'); // Change icon to pause
         } else {
           audio.pause();
-          this.textContent = 'Play Audio'; // Change button text back to "Play"
+          icon.classList.remove('fa-pause');
+          icon.classList.add('fa-volume-up'); // Change icon back to volume
         }
       });
     </script>
