@@ -155,7 +155,7 @@ I am a Software Engineer with 11 years of experience across various programming 
 				</div>
 			</div>
 			<div class="card-content flex flex-column">
-				<h3>PH Vote Map</h3>
+				<h2 class="mt-2">PH Vote Map</h2>
 				<p>An interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.</p>
 				<div class="pt-2">
 					<div class="am-tech-tag">Angular v18.1.0</div>
@@ -163,33 +163,12 @@ I am a Software Engineer with 11 years of experience across various programming 
 					<!-- <div class="am-tech-tag">Font Awesome v6.0.0</div> -->
 					<div class="am-tech-tag">faeldon/philippines-json-maps</div><!-- @github -->
 				</div>
-				<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min flex align-items-center bg-white hover-email white-space-nowrap">
-					<span class="mr-2 text-sm">View Project</span>
-					<i class="fas fa-external-link-alt"></i>
-				</a>
-    		</div>
-    	</div>
-	</div>
-	<div class="col-12">
-		<div class="am-card-horizontal w-full bg-white mt-0">
-			<div class="card-thumbnail">
-				<div class="project-image-container">
-					<img src="assets/images/ph-vote-map-thumb.png" alt="ph-vote-map-thumb">
+				<div class="mb-2 mt-auto">
+					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min flex align-items-center bg-white hover-email white-space-nowrap">
+						<span class="mr-2 text-sm">View Project</span>
+						<i class="fas fa-external-link-alt"></i>
+					</a>
 				</div>
-			</div>
-			<div class="card-content flex flex-column">
-				<h3>AI</h3>
-				<p>An interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.</p>
-				<div class="pt-2">
-					<div class="am-tech-tag">Angular v18.1.0</div>
-					<div class="am-tech-tag">Leaflet v1.9.4</div>
-					<!-- <div class="am-tech-tag">Font Awesome v6.0.0</div> -->
-					<div class="am-tech-tag">faeldon/philippines-json-maps</div><!-- @github -->
-				</div>
-				<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min flex align-items-center bg-white hover-email white-space-nowrap">
-					<span class="mr-2 text-sm">View Project</span>
-					<i class="fas fa-external-link-alt"></i>
-				</a>
     		</div>
     	</div>
 	</div>
