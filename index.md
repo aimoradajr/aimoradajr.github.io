@@ -160,8 +160,10 @@ I am a Software Engineer with 11 years of experience across various programming 
 				<div class="pt-2">
 					<div class="am-tech-tag">Angular v18.1.0</div>
 					<div class="am-tech-tag">Leaflet v1.9.4</div>
-					<!-- <div class="am-tech-tag">Font Awesome v6.0.0</div> -->
 					<div class="am-tech-tag">faeldon/philippines-json-maps</div><!-- @github -->
+					<div class="am-tech-tag-sub">Font Awesome v6.0.0</div>
+					<div class="am-tech-tag-sub">Stackblitz</div>
+					<div class="am-tech-tag-sub">Github Pages</div>
 				</div>
 				<div class="mb-2 mt-auto">
 					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min flex align-items-center bg-white hover-email white-space-nowrap">

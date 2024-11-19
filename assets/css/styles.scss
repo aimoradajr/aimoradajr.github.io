@@ -354,3 +354,21 @@ p {
   margin-right: 2px;
   margin-bottom: 4px;
 }
+
+.am-tech-tag-sub {
+  background-color: #fff;
+  color: #6b6b6b;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.7rem;
+  border: 2px solid #858585; /* Hard border */
+  box-shadow: none; /* No shadow initially */
+  border-radius: 2rem; /* Slight rounding for Neo-Brutalist look */
+  display: inline-block; /* Ensures consistent button appearance */
+  // padding: 10px 20px; /* Adds padding for button size */
+  padding: 0.3rem 0.6rem;
+  // box-shadow: 2px 2px 0 #000; /* Shadow appears only on hover */
+  text-align: center;
+  margin-right: 2px;
+  margin-bottom: 4px;
+}
