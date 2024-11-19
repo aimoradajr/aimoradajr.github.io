@@ -7,6 +7,8 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="icon" href="assets/images/favicon_io/favicon.ico" type="image/x-icon">
+
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -105,10 +107,10 @@
       </footer>
 
       <div class="fixed left-0 bottom-0 m-2">
-        <button id="playButton" class="secret-play-button cursor-pointer">
+        <button id="playButton" class="cursor-pointer" data-tooltip="Audio from Suno AI">
           <i class="fas fa-volume-up" id="icon"></i>
         </button>
-        <audio id="audioPlayer" src="{{ '/assets/audio/gentle_waves.mp3' | relative_url }}" preload="auto"></audio>
+        <audio id="audioPlayer" src="{{ '/assets/audio/galactic_ino.mp3' | relative_url }}" preload="auto"></audio>
       </div>
     </div>
 
@@ -137,13 +139,21 @@
         
         if (audio.paused) {
           audio.play();
-          icon.classList.remove('fa-volume-up');
-          icon.classList.add('fa-pause'); // Change icon to pause
+          // icon.classList.remove('fa-volume-up');
+          icon.classList.add('audioIsPlaying'); // Change icon to pause
         } else {
           audio.pause();
-          icon.classList.remove('fa-pause');
-          icon.classList.add('fa-volume-up'); // Change icon back to volume
+          // icon.classList.remove('fa-pause');
+          icon.classList.remove('audioIsPlaying'); // Change icon back to volume
         }
+      });
+      
+      document.getElementById('audioPlayer').volume = 0.1;
+      
+      // Reset button state when audio ends
+      document.getElementById('audioPlayer').addEventListener('ended', function() {
+        const icon = document.getElementById('icon');
+        icon.classList.remove('audioIsPlaying'); // Ensure icon goes back to default state
       });
     </script>
 

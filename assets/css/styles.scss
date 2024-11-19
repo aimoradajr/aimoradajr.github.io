@@ -193,10 +193,73 @@ p {
   background-color: #ffecc8 !important;
 }
 
-// audio
-.secret-play-button {
+/* General button styling */
+#playButton {
   border: none;
-  background: transparent;
+  background: none;
+  outline: none;
   cursor: pointer;
+  position: relative; /* For tooltip positioning */
   color: #f7dfb2;
+}
+
+/* Icon styling */
+#icon {
+  font-size: 1rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Enlarged and swaying pause icon */
+.fa-pause {
+  font-size: 2rem !important;
+  color: #ff5722; /* Bright color for visibility */
+  animation: sway 1.5s infinite; /* Swaying animation */
+}
+
+.audioIsPlaying {
+  font-size: 2rem !important;
+  color: #ff5722; /* Bright color for visibility */
+  animation: sway 1.5s infinite; /* Swaying animation */
+}
+
+/* Sway animation */
+@keyframes sway {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Tooltip styling */
+#playButton[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 50%; /* Vertically center */
+  left: 100%; /* To the right of the button */
+  transform: translateY(-50%) translateX(10px); /* Add spacing */
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+/* Tooltip visibility on hover */
+#playButton:hover::after {
+  opacity: 1;
 }

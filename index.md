@@ -143,6 +143,34 @@ I am a Software Engineer with 11 years of experience across various programming 
 	</div>
 </div>
 
+<!-- PROFESSIONAL EXPERIENCE -->
+<h2 id="projects" class="mt-4 font-bold text-black-alpha-90">Projects</h2>
+
+<div class="grid">
+	<div class="col-12">
+		<div class="am-card w-full bg-white mt-0">
+			<div class="card-content">
+				<h3>PH Vote Map</h3>
+				<p>PH Vote Map is an interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.</p>
+    			<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank">View Project</a>
+    			<img src="assets/images/ph-vote-map-thumb.png" alt="ph-vote-map-thumb">
+				<p>Leaflet v1.9.4, Angular v18.1.0, Font Awesome v6.0.0, Github/faeldon/philippines-json-maps</p>
+    		</div>
+    	</div>
+	</div>
+	<div class="col-12">
+		<div class="am-card w-full bg-white mt-0">
+			<div class="card-content">
+				<h3>Something AI</h3>
+				<p>PH Vote Map is an interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.</p>
+				<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank">View Project</a>
+				<img src="assets/images/ph-vote-map-thumb.png" alt="ph-vote-map-thumb">
+				<p>Leaflet v1.9.4, Angular v18.1.0, Font Awesome v6.0.0, Github/faeldon/philippines-json-maps</p>
+			</div>
+		</div>
+	</div>
+</div>
+
 <!-- EDUCATION -->
 <!-- <h2 class="font-bold text-black-alpha-90">Education</h2>
 
