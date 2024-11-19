@@ -23,9 +23,9 @@ I am a Software Engineer with 11 years of experience across various programming 
 <div class="grid">
     <div class="col-4 mb-3">
 		<div class="am-card h-full bg-white">
-			<div class="card-thumbnail">
+			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-full-stack.png" loading="lazy" alt="Full-Stack" class="card-thumbnail-img" />
-			</div>
+			</div> -->
 			<div class="card-content">
 				<h3 class="mt-2 mb-3">Full-Stack Web Development</h3>
 				<p>Expertise in <strong>Angular</strong>, <strong>TypeScript</strong>, <strong>Node.js</strong>, <strong>ExpressJS</strong>, <strong>NestJS</strong>, <strong>PostgreSQL</strong>, and <strong>Liquibase</strong>.</p>
@@ -34,9 +34,9 @@ I am a Software Engineer with 11 years of experience across various programming 
 	</div>
     <div class="col-4 mb-3">
 		<div class="am-card h-full bg-white">
-			<div class="card-thumbnail">
+			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-backend.png" loading="lazy" alt="Backend" class="card-thumbnail-img" />
-			</div>
+			</div> -->
 			<div class="card-content">
 				<h3 class="mt-2 mb-3">Backend & Database Management</h3>
 				<p>Experience with <strong>Node.js</strong>, <strong>ExpressJS</strong>, <strong>NestJS</strong>, <strong>PHP</strong>, <strong>C</strong>, <strong><span style="white-space: nowrap;">C++</span></strong>, <strong>Perl</strong>, and <strong>SQL</strong>.
@@ -47,9 +47,9 @@ I am a Software Engineer with 11 years of experience across various programming 
 	</div>
     <div class="col-4 mb-3">
 		<div class="am-card h-full bg-white">
-			<div class="card-thumbnail">
+			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-agile.png" loading="lazy" alt="Agile" class="card-thumbnail-img" />
-			</div>
+			</div> -->
 			<div class="card-content">
 				<h3 class="mt-2 mb-3">Agile Development & Project Management</h3>
 				<p>Proficient in <strong>Scrum methodology</strong> using tools like <strong>Jira</strong> for project and task management.</p>
@@ -58,9 +58,9 @@ I am a Software Engineer with 11 years of experience across various programming 
 	</div>
     <div class="col-4 mb-3">
 		<div class="am-card h-full bg-white">
-			<div class="card-thumbnail">
+			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-frontend.png" loading="lazy" alt="Frontend" class="card-thumbnail-img" />
-			</div>
+			</div> -->
 			<div class="card-content">
 				<h3 class="mt-2 mb-3">Frontend Technologies</h3>
 				<p>Proficient in <strong>HTML5</strong>, <strong>JavaScript</strong>, <strong>CSS3</strong>, <strong>Bootstrap</strong>, <strong>Semantic UI</strong>, <strong>PrimeNG</strong>, and <strong>Responsive Web Design</strong>.</p>
@@ -69,9 +69,9 @@ I am a Software Engineer with 11 years of experience across various programming 
 	</div>
     <div class="col-4 mb-3">
 		<div class="am-card h-full bg-white">
-			<div class="card-thumbnail">
+			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-uiux.png" loading="lazy" alt="UI/UX" class="card-thumbnail-img" />
-			</div>
+			</div> -->
 			<div class="card-content">
 				<h3 class="mt-2 mb-3">UI/UX Design</h3>
 				<p>Hands-on experience with <strong>Figma</strong>, <strong>Photoshop</strong>, and <strong>Illustrator</strong>, ensuring intuitive and user-friendly design.</p>
@@ -80,9 +80,9 @@ I am a Software Engineer with 11 years of experience across various programming 
 	</div>
     <div class="col-4 mb-3">
 		<div class="am-card h-full bg-white">
-			<div class="card-thumbnail">
+			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-misc.png" loading="lazy" alt="Misc" class="card-thumbnail-img" />
-			</div>
+			</div> -->
 			<div class="card-content">
 				<h3 class="mt-2 mb-3">Miscellaneous</h3>
 				<p><strong>WordPress</strong>, <strong>Webflow</strong>, <strong>Ruby on Rails</strong>, <strong>Leaflet</strong>, <strong>Magento</strong>, <strong>AWS</strong>, <strong>Windows Phone</strong>, <strong>SVN</strong>, <strong>ODK</strong>, <strong>Jest</strong>.</p>
@@ -143,23 +143,40 @@ I am a Software Engineer with 11 years of experience across various programming 
 	</div>
 </div>
 
-<!-- PROFESSIONAL EXPERIENCE -->
+<!-- PROJECTS -->
 <h2 id="projects" class="mt-4 font-bold text-black-alpha-90">Projects</h2>
 
-<div class="grid">
+<div class="grid projects-grid">
 	<div class="col-12">
-		<div class="am-card w-full bg-white mt-0">
-			<div class="card-content">
+		<div class="am-card-horizontal w-full bg-white mt-0">
+			<div class="card-thumbnail">
+				<div class="project-image-container">
+					<img src="assets/images/ph-vote-map-thumb.png" alt="ph-vote-map-thumb">
+				</div>
+			</div>
+			<div class="card-content flex flex-column">
 				<h3>PH Vote Map</h3>
-				<p>PH Vote Map is an interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.</p>
-    			<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank">View Project</a>
-    			<img src="assets/images/ph-vote-map-thumb.png" alt="ph-vote-map-thumb">
-				<p>Leaflet v1.9.4, Angular v18.1.0, Font Awesome v6.0.0, Github/faeldon/philippines-json-maps</p>
+				<p>An interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.</p>
+				<div class="pt-2">
+					<div class="am-tech-tag">Angular v18.1.0</div>
+					<div class="am-tech-tag">Leaflet v1.9.4</div>
+					<!-- <div class="am-tech-tag">Font Awesome v6.0.0</div> -->
+					<div class="am-tech-tag">faeldon/philippines-json-maps</div><!-- @github -->
+				</div>
+				<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min flex align-items-center bg-white hover-email white-space-nowrap">
+					<span class="mr-2 text-sm">View Project</span>
+					<i class="fas fa-external-link-alt"></i>
+				</a>
     		</div>
     	</div>
 	</div>
 	<div class="col-12">
-		<div class="am-card w-full bg-white mt-0">
+		<div class="am-card-horizontal w-full bg-white mt-0">
+			<div class="card-thumbnail">
+				<div class="project-image-container">
+					<img src="assets/images/ph-vote-map-thumb.png" alt="ph-vote-map-thumb">
+				</div>
+			</div>
 			<div class="card-content">
 				<h3>Something AI</h3>
 				<p>PH Vote Map is an interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.</p>

@@ -8,15 +8,15 @@ html {
 }
 
 .wrapper {
-  width: 1160px;
+  width: 1010px;
 }
 
 header {
-  width: 300px;
+  width: 250px;
 }
 
 section {
-  width: 800px;
+  width: 700px;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
 }
 
 footer {
-  width: 300px;
+  width: 250px;
   text-align: center;
   background-color: transparent; /* Soft neutral background */
 }
@@ -63,6 +63,38 @@ p {
   padding: 1rem; /* Spacing between thumbnail and content */
 }
 
+// am card horizontal
+.am-card-horizontal {
+  background-color: #fff; /* Icon background color */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 4px 4px 0px #000; /* Brutalist thick shadow */
+  border: 2px solid #000; /* Bold black border */
+}
+
+.am-card-horizontal .card-thumbnail {
+  flex: 1; /* Takes up 50% of the card's width */
+  // max-width: 50%; /* Limits thumbnail width to 50% */
+}
+
+.am-card-horizontal .card-thumbnail img {
+  width: 100%;
+  height: auto; /* Keeps the aspect ratio */
+  display: block;
+}
+
+.am-card-horizontal .card-content {
+  flex: 1; /* Takes up the remaining 50% */
+  padding: 1rem; /* Spacing between thumbnail and content */
+}
+
+.projects-grid {
+  .card-content {
+    // border-left: solid 2px #545454;
+  }
+}
+
 /* Social links container */
 .social-links a {
   display: inline-flex; /* Align icon and text side-by-side */
@@ -74,7 +106,7 @@ p {
   background-color: transparent;
   border: 2px solid #000;
   box-shadow: 2px 2px 0 #000; /* Brutalist shadow */
-  border-radius: 1rem; /* Slight rounding */
+  border-radius: 0.6rem; /* Slight rounding */
   padding: 10px 20px;
   transition: transform 0.2s ease-in-out;
 }
@@ -117,7 +149,7 @@ p {
   font-size: 16px;
   border: 2px solid #000; /* Hard border */
   box-shadow: none; /* No shadow initially */
-  border-radius: 1rem; /* Slight rounding for Neo-Brutalist look */
+  border-radius: 0.5rem; /* Slight rounding for Neo-Brutalist look */
   display: inline-block; /* Ensures consistent button appearance */
   // padding: 10px 20px; /* Adds padding for button size */
   box-shadow: 2px 2px 0 #000; /* Shadow appears only on hover */
@@ -262,4 +294,48 @@ p {
 /* Tooltip visibility on hover */
 #playButton:hover::after {
   opacity: 1;
+}
+
+// project
+.project-image-container {
+  position: relative;
+}
+
+.project-image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project-image-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 70%;
+  background: linear-gradient(to left, rgba(50, 50, 50, 0.8), transparent);
+  pointer-events: none;
+}
+
+.text-gray {
+  color: #575757;
+}
+
+.am-tech-tag {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.7rem;
+  border: 2px solid #000; /* Hard border */
+  box-shadow: none; /* No shadow initially */
+  border-radius: 2rem; /* Slight rounding for Neo-Brutalist look */
+  display: inline-block; /* Ensures consistent button appearance */
+  // padding: 10px 20px; /* Adds padding for button size */
+  padding: 0.3rem 0.6rem;
+  // box-shadow: 2px 2px 0 #000; /* Shadow appears only on hover */
+  text-align: center;
+  margin-right: 2px;
+  margin-bottom: 4px;
 }
