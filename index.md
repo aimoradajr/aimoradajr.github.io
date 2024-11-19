@@ -177,14 +177,21 @@ I am a Software Engineer with 11 years of experience across various programming 
 					<img src="assets/images/ph-vote-map-thumb.png" alt="ph-vote-map-thumb">
 				</div>
 			</div>
-			<div class="card-content">
-				<h3>Something AI</h3>
-				<p>PH Vote Map is an interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.</p>
-				<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank">View Project</a>
-				<img src="assets/images/ph-vote-map-thumb.png" alt="ph-vote-map-thumb">
-				<p>Leaflet v1.9.4, Angular v18.1.0, Font Awesome v6.0.0, Github/faeldon/philippines-json-maps</p>
-			</div>
-		</div>
+			<div class="card-content flex flex-column">
+				<h3>AI</h3>
+				<p>An interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.</p>
+				<div class="pt-2">
+					<div class="am-tech-tag">Angular v18.1.0</div>
+					<div class="am-tech-tag">Leaflet v1.9.4</div>
+					<!-- <div class="am-tech-tag">Font Awesome v6.0.0</div> -->
+					<div class="am-tech-tag">faeldon/philippines-json-maps</div><!-- @github -->
+				</div>
+				<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min flex align-items-center bg-white hover-email white-space-nowrap">
+					<span class="mr-2 text-sm">View Project</span>
+					<i class="fas fa-external-link-alt"></i>
+				</a>
+    		</div>
+    	</div>
 	</div>
 </div>
 

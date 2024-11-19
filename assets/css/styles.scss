@@ -80,6 +80,7 @@ p {
 
 .am-card-horizontal .card-thumbnail img {
   width: 100%;
+  height: 100px;
   height: auto; /* Keeps the aspect ratio */
   display: block;
 }
@@ -298,24 +299,36 @@ p {
 
 // project
 .project-image-container {
-  position: relative;
+  position: relative; /* Set position to allow ::after to work */
+  overflow: hidden; /* Prevents the image from overflowing the container */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Ensures the image is centered inside the container */
 }
 
 .project-image-container img {
-  display: block;
-  width: 100%;
-  height: auto;
+  max-height: 100%; /* Ensure the image respects the container's height */
+  max-width: 100%; /* Ensure the image respects the container's width */
+  height: auto; /* Maintain the aspect ratio */
+  width: auto; /* Maintain the aspect ratio */
+  display: block; /* Prevent inline spacing issues */
+  object-fit: contain; /* Ensure the image fits without cropping */
 }
 
 .project-image-container::after {
   content: "";
-  position: absolute;
+  position: absolute; /* Position the pseudo-element */
   top: 0;
   right: 0;
   bottom: 0;
-  left: 70%;
-  background: linear-gradient(to left, rgba(50, 50, 50, 0.8), transparent);
-  pointer-events: none;
+  left: 70%; /* The shadow will start from the right and extend to 70% of the container */
+  background: linear-gradient(
+    to left,
+    rgba(50, 50, 50, 0.8),
+    transparent
+  ); /* Gradient for shadow */
+  pointer-events: none; /* Ensure the shadow does not block interactions */
+  z-index: 1; /* Ensure the shadow appears above the image */
 }
 
 .text-gray {
