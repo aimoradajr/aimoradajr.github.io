@@ -13,10 +13,14 @@ html {
 
 header {
   width: 250px;
+  padding-top: 3rem;
 }
 
-section {
+.am-right-section {
+  padding-top: 3rem;
   width: 700px;
+  border-left: solid 2px black;
+  padding-left: 30px;
 }
 
 body {
@@ -26,6 +30,8 @@ body {
   background-color: #fff9e6;
   font-family: "Inter", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 footer {
@@ -61,6 +67,41 @@ p {
 .am-card .card-content {
   flex: 1; /* Takes up the remaining 50% */
   padding: 1rem; /* Spacing between thumbnail and content */
+}
+
+/* Logos positioned behind the card */
+.tech-logos {
+  background: red;
+  position: absolute;
+  top: 10px; /* Position the logos fully behind the card initially */
+  left: 0;
+  display: flex;
+  gap: 1px; /* Space between logos */
+  transition: top 0.4s ease-in-out, opacity 0.4s ease-in-out,
+    transform 0.4s ease-in-out;
+  opacity: 0.8; /* Slightly visible while peeking */
+  z-index: -1; /* Ensure it stays behind the card */
+  transform: scale(0.8); /* Start smaller */
+}
+
+/* Individual logo styling */
+.tech-logo {
+  width: 40px;
+  height: auto;
+}
+
+/* On hover: Logos peek out and scale up */
+.am-card:hover .tech-logos {
+  top: -40px; /* Move the logos to peek out from the top */
+  opacity: 1; /* Make them fully visible */
+  transform: scale(1); /* Scale to full size */
+}
+
+/* On hover out: Logos scale down and return */
+.am-card:not(:hover) .tech-logos {
+  top: 10px; /* Fully hide the logos again */
+  opacity: 0.8;
+  transform: scale(0.8); /* Scale back to smaller size */
 }
 
 // am card horizontal

@@ -22,7 +22,15 @@ I am a Software Engineer with 11 years of experience across various programming 
 
 <div class="grid">
     <div class="col-4 mb-3">
-		<div class="am-card h-full bg-white">
+		<div class="am-card h-full relative">
+			<!-- Tech Logos -->
+			<!-- <div class="tech-logos">
+				<img src="assets/images/tech/angular-logo.png" alt="Angular" class="tech-logo">
+				<img src="assets/images/tech/angular-logo.png" alt="Angular" class="tech-logo">
+				<img src="assets/images/tech/angular-logo.png" alt="Angular" class="tech-logo">
+				<img src="assets/images/tech/angular-logo.png" alt="Angular" class="tech-logo">
+				<img src="assets/images/tech/angular-logo.png" alt="Angular" class="tech-logo">
+			</div> -->
 			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-full-stack.png" loading="lazy" alt="Full-Stack" class="card-thumbnail-img" />
 			</div> -->
@@ -151,29 +159,70 @@ I am a Software Engineer with 11 years of experience across various programming 
 		<div class="am-card-horizontal w-full bg-white mt-0">
 			<div class="card-thumbnail">
 				<div class="project-image-container">
-					<img src="assets/images/ph-vote-map-thumb.png" alt="ph-vote-map-thumb">
-				</div>
-			</div>
-			<div class="card-content flex flex-column">
-				<h2 class="mt-2">PH Vote Map</h2>
-				<p>An interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.</p>
-				<div class="pt-2">
-					<div class="am-tech-tag">Angular v18.1.0</div>
-					<div class="am-tech-tag">Leaflet v1.9.4</div>
-					<div class="am-tech-tag">faeldon/philippines-json-maps</div><!-- @github -->
-					<div class="am-tech-tag-sub">Font Awesome v6.0.0</div>
-					<div class="am-tech-tag-sub">Stackblitz</div>
-					<div class="am-tech-tag-sub">Github Pages</div>
-				</div>
-				<div class="mb-2 mt-auto">
-					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min flex align-items-center bg-white hover-email white-space-nowrap">
-						<span class="mr-2 text-sm">View Project</span>
-						<i class="fas fa-external-link-alt"></i>
+					<!-- <img src="assets/images/projects/ph-vote-map-thumb.png" alt="ph-vote-map-thumb"> -->
+					<!-- <img src="assets/images/projects/ph_vote_map.gif" alt="ph-vote-map-thumb"> -->
+					<a href="assets/images/projects/ph_vote_map.gif" class="popup-link">
+						<img src="assets/images/projects/ph-vote-map-thumb.png" alt="ph-vote-map-thumb">
 					</a>
 				</div>
+			</div>
+    		<div class="card-content flex flex-column">
+    			<h2 class="mt-2 mb-1">PH Vote Map</h2>
+    			<p class="text-xs">An interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.</p>
+    			<div class="pt-2">
+    				<div class="am-tech-tag">Angular v18.1.0</div>
+    				<div class="am-tech-tag" style="color: #199900; border-color: #199900">Leaflet v1.9.4</div>
+    				<div class="am-tech-tag">faeldon/philippines-json-maps</div><!-- @github -->
+    				<div class="am-tech-tag-sub">Font Awesome v6.0.0</div>
+    				<div class="am-tech-tag-sub">Stackblitz</div>
+    				<div class="am-tech-tag-sub">Github Pages</div>
+    			</div>
+    			<div class="mb-2 mt-auto">
+    				<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min flex align-items-center bg-white hover-email white-space-nowrap">
+    					<span class="mr-2 text-sm">View Project</span>
+    					<i class="fas fa-external-link-alt"></i>
+    				</a>
+					<!-- <span>last updated: </span> -->
+    			</div>
     		</div>
     	</div>
-	</div>
+    </div><div class="col-12">
+    	<div class="am-card-horizontal w-full bg-white mt-0">
+    		<div class="card-thumbnail">
+    			<div class="project-image-container">
+    				<!-- <img src="assets/images/projects/ai-scheduling-thumb.png" alt="ai-scheduling-thumb"> -->
+					<!-- <img src="assets/images/projects/ai_scheduling.gif" alt="ph-vote-map-thumb"> -->
+					<a href="assets/images/projects/ai_scheduling.gif" class="popup-link">
+						<img src="assets/images/projects/ai-scheduling-thumb.png" alt="ph-vote-map-thumb">
+					</a>
+    			</div>
+    		</div>
+    		<div class="card-content flex flex-column">
+    			<h2 class="mt-2 mb-1">AI-Powered Class Scheduling</h2>
+    			<p class="text-xs">AI-Powered Class Scheduling uses OpenAI's AI model (<strong>gpt-4o</strong>) to analyze data, resolve conflicts, and optimize schedules for courses, rooms, teachers, and students.</p>
+    			<div class="pt-2">
+					<!-- backend -->
+    				<div class="am-tech-tag">Node.js v20.x</div>
+    				<div class="am-tech-tag">Express.js v4.21.1</div>
+    				<div class="am-tech-tag" style="color: purple; border-color: purple">OpenAI GPT-4.0</div>
+    				<div class="am-tech-tag">AWS Lambda</div>
+    				<div class="am-tech-tag">Serverless Framework</div>
+					<!-- frontend -->
+    				<div class="am-tech-tag">Angular v18.1.0</div>
+    				<div class="am-tech-tag">Tailwind CSS</div>
+    				<div class="am-tech-tag-sub">FullCalendar v6.1.15</div>
+    				<div class="am-tech-tag-sub">Stackblitz</div>
+    			</div>
+    			<div class="mb-2 mt-auto">
+    				<a href="https://stackblitz.com/edit/stackblitz-starters-6tidvq?file=src%2Fmain.html" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min flex align-items-center bg-white hover-email white-space-nowrap">
+    					<span class="mr-2 text-sm">View Project</span>
+    					<i class="fas fa-external-link-alt"></i>
+    				</a>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
 </div>
 
 <!-- EDUCATION -->
@@ -199,3 +248,14 @@ This is me, circa 2021, AFK.
 <p class="text-sm font-normal" style="margin-top: 10rem">
 Started with the Jekyll Minimal theme, customized it to fit a Neo-Brutalist-inspired style. Used PrimeFlex for layout structure and styling, incorporated Midjourney-generated images for a unique visual touch, and hosted it all through GitHub Pages.
 </p>
+
+<script>
+  $(document).ready(function() {
+    $('.popup-link').magnificPopup({
+      type: 'image',
+      gallery: {
+        enabled: true // Set to true to enable gallery mode
+      }
+    });
+  });
+</script>
