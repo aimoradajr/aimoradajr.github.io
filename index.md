@@ -13,8 +13,8 @@ Manila, Philippines
 
 <!-- ABOUT -->
 <!-- <h2 class="font-bold text-black-alpha-90">About</h2> -->
-<p id="about" class="text-sm font-normal mt-1">
-I am a Software Engineer with 11 years of experience across various programming technologies and 6 years focused on full-stack Angular and Node.js web development. I have a particular interest in UI/UX design, ensuring that the interfaces I develop are intuitive and user-friendly. I am also interested in integrating AI technologies to bring enhanced functionality to modern web solutions.
+<p id="about" class="text-sm font-normal mt-2">
+  I am a Software Engineer with <strong>11 years of experience</strong> across various programming technologies and <strong>6 years focused on full-stack Angular and Node.js web development</strong>. I have a particular interest in <strong>UI/UX design</strong>, ensuring that the interfaces I develop are <strong>intuitive and user-friendly</strong>. I am thrilled by the potential of <strong>innovative AI technologies</strong> and enjoy exploring ways to integrate them into modern web solutions.
 </p>
 
 <!-- SKILLS -->
@@ -169,7 +169,7 @@ I am a Software Engineer with 11 years of experience across various programming 
     		<div class="card-content flex flex-column">
     			<h2 class="mt-2 mb-1">PH Vote Map</h2>
     			<p class="text-xs">An interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.</p>
-    			<div class="pt-2">
+    			<div class="pt-3">
     				<div class="am-tech-tag">Angular v18.1.0</div>
     				<div class="am-tech-tag" style="color: #199900; border-color: #199900">Leaflet v1.9.4</div>
     				<div class="am-tech-tag">faeldon/philippines-json-maps</div><!-- @github -->
@@ -200,17 +200,18 @@ I am a Software Engineer with 11 years of experience across various programming 
     		<div class="card-content flex flex-column">
     			<h2 class="mt-2 mb-1">AI-Powered Class Scheduling</h2>
     			<p class="text-xs">AI-Powered Class Scheduling uses OpenAI's AI model (<strong>gpt-4o</strong>) to analyze data, resolve conflicts, and optimize schedules for courses, rooms, teachers, and students.</p>
-    			<div class="pt-2">
+    			<div class="pt-3">
 					<!-- backend -->
     				<div class="am-tech-tag">Node.js v20.x</div>
     				<div class="am-tech-tag">Express.js v4.21.1</div>
     				<div class="am-tech-tag" style="color: purple; border-color: purple">OpenAI GPT-4.0</div>
     				<div class="am-tech-tag">AWS Lambda</div>
     				<div class="am-tech-tag">Serverless Framework</div>
+					<div class="border-top-2 mx-3 mt-1 mb-2 border-gray-400"></div>
 					<!-- frontend -->
     				<div class="am-tech-tag">Angular v18.1.0</div>
     				<div class="am-tech-tag">Tailwind CSS</div>
-    				<div class="am-tech-tag-sub">FullCalendar v6.1.15</div>
+    				<div class="am-tech-tag">FullCalendar v6.1.15</div>
     				<div class="am-tech-tag-sub">Stackblitz</div>
     			</div>
     			<div class="mb-2 mt-auto">

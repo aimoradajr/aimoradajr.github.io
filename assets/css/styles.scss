@@ -388,6 +388,31 @@ p {
   background-color: #ffb0b0;
 }
 
+.social-link-email {
+  // background-color: #d14836 !important; /* Muted Gmail Red */
+  background: white !important;
+}
+
+.social-link-github {
+  // background-color: #bacaff !important; /* Muted GitHub Blue */
+  background: white !important;
+}
+
+.social-link-linkedin {
+  // background-color: #c8e6ff !important; /* Muted LinkedIn Blue */
+  background: white !important;
+}
+
+.social-link-codepen {
+  //background-color: #b1b1b1 !important; /* Muted CodePen Gray */
+  background: white !important;
+}
+
+.social-link-stackblitz {
+  //background-color: #1387fc !important; /* Muted StackBlitz Blue */
+  background: white !important;
+}
+
 // hover effects
 .hover-orange:hover {
   background-color: #ffecc8 !important;
@@ -395,17 +420,21 @@ p {
 
 .hover-email:hover {
   // use mute gmail logo color
-  background-color: #ffecc8 !important;
+  // background-color: #ffecc8 !important;
+  background-color: #d14836 !important;
+  // border-color: #d14836 !important;
 }
 
 .hover-github:hover {
   // use mute github logo color
-  background-color: #bacaff !important;
+  // background-color: #bacaff !important;
+  background-color: #0366d6 !important;
 }
 
 .hover-linkedin:hover {
   // use mute linkedin logo color
-  background-color: #c8e6ff !important;
+  // background-color: #c8e6ff !important;
+  background-color: #0072b1 !important;
 }
 
 .hover-codepen:hover {
@@ -413,14 +442,27 @@ p {
   background-color: #b1b1b1 !important;
 }
 
+.hover-stackblitz:hover {
+  // use mute stackblitz logo color
+  background-color: #1387fc !important;
+}
+
 // active nav
 .active-nav {
-  background-color: #ffd09b;
+  // background-color: #ffd09b;
+  background-color: #4f92ff;
+  // color: white;
 }
 
 // hover effects
 .nav-hover-orange:not(.active-nav):hover {
   background-color: #ffecc8 !important;
+  // color: white;
+}
+
+.nav-hover-blue:not(.active-nav):hover {
+  background-color: #a4c7ff !important;
+  // color: white;
 }
 
 /* General button styling */
@@ -568,4 +610,16 @@ p {
   text-align: center;
   margin-right: 2px;
   margin-bottom: 4px;
+}
+
+@media screen and (min-width: 992px) {
+  .lg\:w-35rem {
+    width: 35rem !important;
+  }
+  .lg\:w-40rem {
+    width: 40rem !important;
+  }
+  .lg\:w-45rem {
+    width: 45rem !important;
+  }
 }
