@@ -13,7 +13,7 @@ Manila, Philippines
 
 <!-- ABOUT -->
 <!-- <h2 class="font-bold text-black-alpha-90">About</h2> -->
-<p id="about" class="text-base font-normal mt-1">
+<p id="about" class="text-sm font-normal mt-1">
 I am a Software Engineer with 11 years of experience across various programming technologies and 6 years focused on full-stack Angular and Node.js web development. I have a particular interest in UI/UX design, ensuring that the interfaces I develop are intuitive and user-friendly. I am also interested in integrating AI technologies to bring enhanced functionality to modern web solutions.
 </p>
 
