@@ -18,7 +18,7 @@ Manila, Philippines
 </p>
 
 <!-- SKILLS -->
-<h2 id="skills" class="mt-5 font-bold text-black-alpha-90">Skills</h2>
+<h2 id="skills" class="mt-5 font-bold text-black-alpha-90 sm:text-center md:text-left">Skills</h2>
 
 <div class="grid">
     <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
@@ -100,7 +100,7 @@ Manila, Philippines
 </div>
 
 <!-- PROFESSIONAL EXPERIENCE -->
-<h2 id="professional-experience" class="mt-4 font-bold text-black-alpha-90">Professional Experience</h2>
+<h2 id="professional-experience" class="mt-4 font-bold text-black-alpha-90 sm:text-center md:text-left">Professional Experience</h2>
 
 <div class="grid">
 	<div class="col-12">
@@ -152,7 +152,7 @@ Manila, Philippines
 </div>
 
 <!-- PROJECTS -->
-<h2 id="projects" class="mt-4 font-bold text-black-alpha-90">Projects</h2>
+<h2 id="projects" class="mt-4 font-bold text-black-alpha-90 sm:text-center md:text-left">Projects</h2>
 
 <div class="grid projects-grid">
 	<div class="col-12">
@@ -226,7 +226,7 @@ Manila, Philippines
 </div>
 
 <!-- EDUCATION -->
-<!-- <h2 class="font-bold text-black-alpha-90">Education</h2>
+<!-- <h2 class="font-bold text-black-alpha-90 sm:text-center md:text-left">Education</h2>
 
 <div>
 **Bachelor of Science in Computer Science (BSCS)**
@@ -236,16 +236,18 @@ Manila, Philippines
 -->
 
 <!-- ME -->
-<h2 id="me" class="mt-5 font-bold text-black-alpha-90">Me</h2>
+<h2 id="me" class="font-bold text-black-alpha-90 sm:mt-8 md:mt-5 sm:text-center md:text-left">Me</h2>
 
-<img class="border-3 border-round-2xl w-4" src="/assets/images/ariel-photo.jpg" alt="Me" />
+<div class="sm:text-center md:text-left">
+	<img class="border-3 border-round-2xl w-4" src="/assets/images/ariel-photo.jpg" alt="Me" />
+</div>
 
-<p class="text-base font-normal mt-1">
-This is me, circa 2021, afk.
+<p class="text-base font-normal mt-1 sm:text-center md:text-left">
+This is me afk, circa 2021.
 </p>
 
 <!-- NOTES -->
-<p class="text-xs font-normal text-700" style="margin-top: 10rem">
+<p class="text-xs font-normal text-700 sm:text-center md:text-left" style="margin-top: 10rem">
 Started with the Jekyll Minimal theme, customized it to fit a Neo-Brutalist-inspired style. Used PrimeFlex for layout structure and styling, incorporated Midjourney-generated images for a unique visual touch, and hosted it all through GitHub Pages.
 </p>
 
