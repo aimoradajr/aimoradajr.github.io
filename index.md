@@ -21,7 +21,7 @@ Manila, Philippines
 <h2 id="skills" class="mt-5 font-bold text-black-alpha-90">Skills</h2>
 
 <div class="grid">
-    <div class="col-4 mb-3">
+    <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
 		<div class="am-card h-full relative">
 			<!-- Tech Logos -->
 			<!-- <div class="tech-logos">
@@ -40,7 +40,7 @@ Manila, Philippines
 			</div>
 		</div>
 	</div>
-    <div class="col-4 mb-3">
+    <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
 		<div class="am-card h-full bg-white">
 			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-backend.png" loading="lazy" alt="Backend" class="card-thumbnail-img" />
@@ -53,7 +53,7 @@ Manila, Philippines
 			</div>
 		</div>
 	</div>
-    <div class="col-4 mb-3">
+    <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
 		<div class="am-card h-full bg-white">
 			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-agile.png" loading="lazy" alt="Agile" class="card-thumbnail-img" />
@@ -64,7 +64,7 @@ Manila, Philippines
 			</div>
 		</div>
 	</div>
-    <div class="col-4 mb-3">
+    <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
 		<div class="am-card h-full bg-white">
 			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-frontend.png" loading="lazy" alt="Frontend" class="card-thumbnail-img" />
@@ -75,7 +75,7 @@ Manila, Philippines
 			</div>
 		</div>
 	</div>
-    <div class="col-4 mb-3">
+    <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
 		<div class="am-card h-full bg-white">
 			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-uiux.png" loading="lazy" alt="UI/UX" class="card-thumbnail-img" />
@@ -86,7 +86,7 @@ Manila, Philippines
 			</div>
 		</div>
 	</div>
-    <div class="col-4 mb-3">
+    <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
 		<div class="am-card h-full bg-white">
 			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-misc.png" loading="lazy" alt="Misc" class="card-thumbnail-img" />
@@ -206,7 +206,7 @@ Manila, Philippines
     				<div class="am-tech-tag">Express.js v4.21.1</div>
     				<div class="am-tech-tag" style="color: purple; border-color: purple">OpenAI GPT-4.0</div>
     				<div class="am-tech-tag">AWS Lambda</div>
-    				<div class="am-tech-tag">Serverless Framework</div>
+    				<div class="am-tech-tag" title="Serverless Framework">Serverless</div>
 					<div class="border-top-2 mx-3 mt-1 mb-2 border-gray-400"></div>
 					<!-- frontend -->
     				<div class="am-tech-tag">Angular v18.1.0</div>
@@ -223,7 +223,6 @@ Manila, Philippines
     		</div>
     	</div>
     </div>
-
 </div>
 
 <!-- EDUCATION -->
@@ -242,11 +241,11 @@ Manila, Philippines
 <img class="border-3 border-round-2xl w-4" src="/assets/images/ariel-photo.jpg" alt="Me" />
 
 <p class="text-base font-normal mt-1">
-This is me, circa 2021, AFK.
+This is me, circa 2021, afk.
 </p>
 
 <!-- NOTES -->
-<p class="text-sm font-normal" style="margin-top: 10rem">
+<p class="text-xs font-normal text-700" style="margin-top: 10rem">
 Started with the Jekyll Minimal theme, customized it to fit a Neo-Brutalist-inspired style. Used PrimeFlex for layout structure and styling, incorporated Midjourney-generated images for a unique visual touch, and hosted it all through GitHub Pages.
 </p>
 

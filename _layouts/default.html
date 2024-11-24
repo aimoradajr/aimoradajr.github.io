@@ -30,90 +30,93 @@
     <!-- main -->
     <div class="flex flex-column lg:flex-row min-h-screen">
       <!-- Part A -->
-      <div class="flex flex-column lg:flex-grow-1 lg:sticky lg:top-0 lg:h-screen" style="background-color: #fef3d3">
+      <div class="flex md:flex-row lg:flex-column lg:flex-grow-1 lg:sticky lg:top-0 lg:h-screen" style="background-color: #fef3d3">
         <!-- Part A1 -->
-        <div class="w-full flex flex-column align-items-end h-min pb-5" style="background-color: #fff3cf">
+        <div class="flex flex-column align-items-end h-min sm:w-6 md:w-6 lg:w-full" style="background-color: #fff3cf">
           <!-- Title -->
-          <div class="w-full lg:w-18rem pt-5 px-5">
-            <div>
+          <div class="w-full lg:w-18rem xl:w-20rem">
+            <div class="pt-5 px-5">
               {% if site.logo %}
                 <img class="border-3 border-round-2xl" src="{{site.logo | relative_url}}" alt="Logo" />
               {% endif %}
 
-              <h1 class="mb-1 text-center"><a href="{{ "/" | absolute_url }}" style="font-size: 1.8rem" class="font-bold text-black-alpha-90">{{ site.title | default: site.github.repository_name }}</a></h1>
+              <h1 class="mb-1 sm:text-center md:text-left lg:text-center"><a href="{{ "/" | absolute_url }}" style="font-size: 1.8rem" class="font-bold text-black-alpha-90">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-              <p class="font-medium text-md text-black-alpha-90 text-center">{{ site.description | default: site.github.project_tagline }}</p>
+              <p class="font-medium text-md text-black-alpha-90 sm:text-center md:text-left lg:text-center">{{ site.description | default: site.github.project_tagline }}</p>
             </div>
           </div>
           <!-- nav -->
-          <div class="w-full lg:w-18rem pt-5 px-5">
+          <div class="w-full lg:w-18rem xl:w-20rem">
             <!-- First Set of Buttons -->
-            <nav id="nav-buttons">
-              <div class="flex flex-column lg:flex-column sm:flex-row gap-1">
+            <nav id="nav-buttons" class="sm:p-3 md:p-3 md:pl-5 lg:p-5">
+              <div class="flex flex-column sm:flex-row sm:justify-content-center md:justify-content-start lg:flex-column gap-2 nav-links">
                 <a href="#about" class="neo-brutal-button p-2 active-nav nav-hover-blue">About</a>
-                <a href="#skills" class="neo-brutal-button p-2 mt-2 nav-hover-blue">Skills</a>
-                <a href="#professional-experience" class="neo-brutal-button p-2 mt-2 nav-hover-blue">Professional Experience</a>
-                <a href="#projects" class="neo-brutal-button p-2 mt-2 nav-hover-blue">Projects</a>
-                <!-- <a href="#education" class="neo-brutal-button p-2 mt-2 nav-hover-blue">Education</a> -->
+                <a href="#skills" class="neo-brutal-button p-2 nav-hover-blue">Skills</a>
+                <a href="#professional-experience" class="neo-brutal-button p-2 nav-hover-blue"><span class="md:hidden">Professional</span>Experience</a>
+                <a href="#projects" class="neo-brutal-button p-2 nav-hover-blue">Projects</a>
+                <!-- <a href="#education" class="neo-brutal-button p-2 nav-hover-blue">Education</a> -->
               </div>
             </nav>
           </div>
         </div>
         <!-- Part A2 -->
-        <div class="w-full flex flex-column align-items-end justify-content-end border-top-2 lg:h-full">
+        <div class="flex flex-column align-items-end justify-content-end sm:w-6 md:w-6 lg:w-full lg:border-top-2 lg:h-full">
           <!-- social links -->
           <div 
-            class="w-full lg:w-18rem pb-5 px-5"
+            class="w-full lg:w-18rem xl:w-20rem"
           >
-            <div class="flex flex-column lg:flex-column sm:flex-row gap-1 social-links">
+            <div class="sm:p-3 sm:pt-0 md:p-3 md:pr-5 md:pt-0 lg:p-5">
+              <div class="flex flex-column sm:flex-row sm:justify-content-center md:justify-content-end lg:flex-column gap-2 social-links">
                 {% if site.email %}
                 <a href="mailto:{{ site.email }}" class="p-1 py-0 text-sm flex align-items-center social-link-email hover-email">
                   <i class="fas fa-envelope"></i>
-                  <span class="ml-2">{{ site.email_label }}</span>
+                  <span class="ml-0 hidden lg:inline">{{ site.email_label }}</span>
                 </a>
                 {% endif %}
             
                 {% if site.github_url %}
-                <a href="{{ site.github_url }}" target="_blank" class="p-1 py-0 text-sm mt-2 social-link-github hover-github">
+                <a href="{{ site.github_url }}" target="_blank" class="p-1 py-0 text-sm social-link-github hover-github">
                   <i class="fab fa-github"></i>
-                  <span class="ml-2">{{ site.github_label }}</span>
+                  <span class="ml-0 hidden lg:inline">{{ site.github_label }}</span>
                 </a>
                 {% endif %}
                 
                 {% if site.linkedin_url %}
-                <a href="{{ site.linkedin_url }}" target="_blank" class="p-1 py-0 text-sm mt-2 social-link-linkedin hover-linkedin">
+                <a href="{{ site.linkedin_url }}" target="_blank" class="p-1 py-0 text-sm social-link-linkedin hover-linkedin">
                   <i class="fab fa-linkedin"></i>
-                  <span class="ml-2">{{ site.linkedin_label }}</span>
+                  <span class="ml-0 hidden lg:inline">{{ site.linkedin_label }}</span>
                 </a>
                 {% endif %}
                 
-                <div class="flex gap-2 mt-2">
+                <div class="flex gap-2 sm:flex-row lg:flex-wrap ">
                   {% if site.codepen_url %}
-                  <a href="{{ site.codepen_url }}" target="_blank" class="flex-1 p-1 py-0 text-sm social-link-codepen hover-codepen flex items-center justify-center">
+                  <a href="{{ site.codepen_url }}" target="_blank" class="p-1 py-0 text-sm social-link-codepen hover-codepen flex-1 basis-1/2 max-w-1/2">
+                    <!-- Icon only on lg screens -->
                     <i class="fab fa-codepen"></i>
-                    <span class="ml-2">{{ site.codepen_label }}</span>
+                    <!-- Label hidden on lg screens -->
+                    <span class="ml-0 hidden lg:inline">{{ site.codepen_label }}</span>
                   </a>
                   {% endif %}
 
                   {% if site.stackblitz_url %}
-                  <a href="{{ site.stackblitz_url }}" target="_blank" class="flex-1 p-1 py-0 text-sm social-link-stackblitz hover-stackblitz flex items-center justify-center">
+                  <a href="{{ site.stackblitz_url }}" target="_blank" class="p-1 py-0 text-sm social-link-stackblitz hover-stackblitz flex-1 basis-1/2 max-w-1/2">
                     <i class="fas fa-bolt"></i>
-                    <span class="ml-2">{{ site.stackblitz_label }}</span>
+                    <span class="ml-0 hidden lg:inline">{{ site.stackblitz_label }}</span>
                   </a>
                   {% endif %}
                 </div>
 
-
               </div>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Part B -->
-      <div class="flex flex-grow-1 border-left-2" style="background-color: #fffaec">
+      <div class="flex flex-grow-1 sm:border-top-2 md:border-top-2 lg:border-top-none lg:border-left-2" style="background-color: #fffaec">
         <div class="w-full  flex justify-content-start">
           <!-- Title and Buttons -->
-          <div class="w-full lg:w-45rem p-5">
+          <div class="w-full p-5 lg:w-40rem xl:w-45rem">
             {{ content }}
           </div>
         </div>

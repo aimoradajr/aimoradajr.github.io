@@ -543,6 +543,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center; /* Ensures the image is centered inside the container */
+  height: 100%;
 }
 
 .project-image-container img {
@@ -612,6 +613,30 @@ p {
   margin-bottom: 4px;
 }
 
+@media screen and (min-width: 576px) {
+  .sm\:w-30rem {
+    width: 30rem !important;
+  }
+  .sm\:w-35rem {
+    width: 35rem !important;
+  }
+  .sm\:w-40rem {
+    width: 40rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:w-30rem {
+    width: 30rem !important;
+  }
+  .md\:w-35rem {
+    width: 35rem !important;
+  }
+  .md\:w-40rem {
+    width: 40rem !important;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .lg\:w-35rem {
     width: 35rem !important;
@@ -620,6 +645,18 @@ p {
     width: 40rem !important;
   }
   .lg\:w-45rem {
+    width: 45rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .xl\:w-35rem {
+    width: 35rem !important;
+  }
+  .xl\:w-40rem {
+    width: 40rem !important;
+  }
+  .xl\:w-45rem {
     width: 45rem !important;
   }
 }
