@@ -30,7 +30,7 @@
     <!-- main -->
     <div class="flex flex-column lg:flex-row min-h-screen">
       <!-- Part A -->
-      <div class="flex sm:flex-column md:flex-row lg:flex-column lg:flex-grow-1 lg:sticky lg:top-0 lg:h-screen" style="background-color: #fef3d3">
+      <div class="flex flex-column sm:flex-column md:flex-row lg:flex-column lg:flex-grow-1 lg:sticky lg:top-0 lg:h-screen" style="background-color: #fef3d3">
         <!-- Part A1 -->
         <div class="flex flex-column align-items-end h-min sm:w-12 md:w-6 lg:w-full" style="background-color: #fff3cf">
           <!-- Title -->
@@ -48,7 +48,7 @@
           <!-- nav -->
           <div class="w-full lg:w-18rem xl:w-20rem">
             <!-- First Set of Buttons -->
-            <nav id="nav-buttons" class="sm:p-3 md:p-3 md:pl-5 lg:p-5">
+            <nav id="nav-buttons" class="p-3 sm:p-3 md:p-3 md:pl-5 lg:p-5">
               <div class="flex flex-column sm:flex-row sm:justify-content-center md:justify-content-start lg:flex-column gap-2 nav-links">
                 <a href="#about" class="neo-brutal-button p-2 active-nav nav-hover-blue">About</a>
                 <a href="#skills" class="neo-brutal-button p-2 nav-hover-blue">Skills</a>
@@ -65,8 +65,8 @@
           <div 
             class="w-full lg:w-18rem xl:w-20rem"
           >
-            <div class="sm:p-3 sm:pt-0 md:p-3 md:pr-5 md:pt-0 lg:p-5">
-              <div class="flex flex-column sm:flex-row sm:justify-content-center md:justify-content-end lg:flex-column gap-2 social-links">
+            <div class="p-3 sm:p-3 sm:pt-0 md:p-3 md:pr-5 md:pt-0 lg:p-5">
+              <div class="flex flex-row justify-content-center sm:flex-row sm:justify-content-center md:justify-content-end lg:flex-column gap-2 social-links">
                 {% if site.email %}
                 <a href="mailto:{{ site.email }}" class="p-1 py-0 text-sm flex align-items-center social-link-email hover-email">
                   <i class="fas fa-envelope"></i>
