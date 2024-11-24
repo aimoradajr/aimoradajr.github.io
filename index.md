@@ -167,7 +167,7 @@ Manila, Philippines
 			</div>
     		<!-- Content Section -->
     		<div class="card-content flex-1 p-3 flex flex-column">
-				<h2 class="mt-2 mb-1">PH Vote Map</h2>
+				<h2 class="mt-2 mb-1">PH Vote Map <span class="text-sm text-500">2024</span></h2>
 				<p class="text-xs">
 					An interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.
 				</p>
@@ -179,8 +179,8 @@ Manila, Philippines
 					<div class="am-tech-tag-sub">Stackblitz</div>
 					<div class="am-tech-tag-sub">Github Pages</div>
 				</div>
-				<div class="mb-2 mt-auto">
-					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min flex align-items-center bg-white hover-email white-space-nowrap">
+				<div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
 					<span class="mr-2 text-sm">View Project</span>
 					<i class="fas fa-external-link-alt"></i>
 					</a>
@@ -200,7 +200,7 @@ Manila, Philippines
 			</div>
 			<!-- Content Section -->
 			<div class="card-content flex-1 p-3 flex flex-column">
-				<h2 class="mt-2 mb-1">AI-Powered Class Scheduling</h2>
+				<h2 class="mt-2 mb-1" title="AI-Powered Class Scheduling">AI Class Scheduling <span class="text-sm text-500">2024</span></h2>
 				<p class="text-xs">
 					AI-Powered Class Scheduling uses OpenAI's AI model (<strong>gpt-4o</strong>) to analyze data, resolve conflicts, and optimize schedules for courses, rooms, teachers, and students.
 				</p>
@@ -211,17 +211,18 @@ Manila, Philippines
 					<div class="am-tech-tag" style="color: purple; border-color: purple">OpenAI GPT-4.0</div>
 					<div class="am-tech-tag">AWS Lambda</div>
 					<div class="am-tech-tag" title="Serverless Framework">Serverless</div>
-					<div class="border-top-2 mx-3 mt-1 mb-2 border-gray-400"></div>
+					<!-- divider -->
+					<div class="border-top-2 mx-3 mt-1 mb-2 border-gray-400 hidden sm:block"></div>
     				<!-- Frontend Technologies -->
     				<div class="am-tech-tag">Angular v18.1.0</div>
     				<div class="am-tech-tag">Tailwind CSS</div>
     				<div class="am-tech-tag">FullCalendar v6.1.15</div>
     				<div class="am-tech-tag-sub">Stackblitz</div>
     			</div>
-    			<div class="mb-2 mt-auto">
+    			<div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
     				<a href="https://stackblitz.com/edit/stackblitz-starters-6tidvq?file=src%2Fmain.html"
     				target="_blank"
-    				class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min flex align-items-center bg-white hover-email white-space-nowrap">
+    				class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
     				<span class="mr-2 text-sm">View Project</span>
     				<i class="fas fa-external-link-alt"></i>
     				</a>

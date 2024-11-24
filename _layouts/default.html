@@ -40,19 +40,19 @@
                 <img class="border-3 border-round-2xl" src="{{site.logo | relative_url}}" alt="Logo" />
               {% endif %}
 
-              <h1 class="mb-1 sm:text-center md:text-left lg:text-center"><a href="{{ "/" | absolute_url }}" style="font-size: 1.8rem" class="font-bold text-black-alpha-90">{{ site.title | default: site.github.repository_name }}</a></h1>
+              <h1 class="mb-1 text-center sm:text-center md:text-left lg:text-center"><a href="{{ "/" | absolute_url }}" style="font-size: 1.8rem" class="font-bold text-black-alpha-90">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-              <p class="font-medium text-md text-black-alpha-90 sm:text-center md:text-left lg:text-center">{{ site.description | default: site.github.project_tagline }}</p>
+              <p class="font-medium text-black-alpha-90 text-center sm:text-center md:text-left lg:text-center">{{ site.description | default: site.github.project_tagline }}</p>
             </div>
           </div>
           <!-- nav -->
           <div class="w-full lg:w-18rem xl:w-20rem">
             <!-- First Set of Buttons -->
             <nav id="nav-buttons" class="p-3 sm:p-3 md:p-3 md:pl-5 lg:p-5">
-              <div class="flex flex-column sm:flex-row sm:justify-content-center md:justify-content-start lg:flex-column gap-2 nav-links">
+              <div class="flex flex-row justify-content-center sm:flex-row sm:justify-content-center md:justify-content-start lg:flex-column gap-2 nav-links">
                 <a href="#about" class="neo-brutal-button p-2 active-nav nav-hover-blue">About</a>
                 <a href="#skills" class="neo-brutal-button p-2 nav-hover-blue">Skills</a>
-                <a href="#professional-experience" class="neo-brutal-button p-2 nav-hover-blue"><span class="md:hidden">Professional</span>Experience</a>
+                <a href="#professional-experience" class="neo-brutal-button p-2 nav-hover-blue"><span class="hidden sm:hidden md:hidden lg:inline-block">Professional&nbsp;</span>Experience</a>
                 <a href="#projects" class="neo-brutal-button p-2 nav-hover-blue">Projects</a>
                 <!-- <a href="#education" class="neo-brutal-button p-2 nav-hover-blue">Education</a> -->
               </div>
@@ -65,7 +65,7 @@
           <div 
             class="w-full lg:w-18rem xl:w-20rem"
           >
-            <div class="p-3 sm:p-3 sm:pt-0 md:p-3 md:pr-5 md:pt-0 lg:p-5">
+            <div class="p-3 pt-0 sm:p-3 sm:pt-0 md:p-3 md:pr-5 md:pt-0 lg:p-5">
               <div class="flex flex-row justify-content-center sm:flex-row sm:justify-content-center md:justify-content-end lg:flex-column gap-2 social-links">
                 {% if site.email %}
                 <a href="mailto:{{ site.email }}" class="p-1 py-0 text-sm flex align-items-center social-link-email hover-email">
