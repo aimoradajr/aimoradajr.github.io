@@ -21,7 +21,7 @@ Manila, Philippines
 <h2 id="skills" class="mt-5 font-bold text-black-alpha-90 sm:text-center md:text-left">Skills</h2>
 
 <div class="grid">
-    <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
+    <div class="col-4 mb-3 sm:col-6 md:col-4 md:mb-1 lg:col-4">
 		<div class="am-card h-full relative">
 			<!-- Tech Logos -->
 			<!-- <div class="tech-logos">
@@ -40,7 +40,7 @@ Manila, Philippines
 			</div>
 		</div>
 	</div>
-    <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
+    <div class="col-4 mb-3 sm:col-6 md:col-4 md:mb-1 lg:col-4">
 		<div class="am-card h-full bg-white">
 			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-backend.png" loading="lazy" alt="Backend" class="card-thumbnail-img" />
@@ -53,7 +53,7 @@ Manila, Philippines
 			</div>
 		</div>
 	</div>
-    <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
+    <div class="col-4 mb-3 sm:col-6 md:col-4 md:mb-1 lg:col-4">
 		<div class="am-card h-full bg-white">
 			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-agile.png" loading="lazy" alt="Agile" class="card-thumbnail-img" />
@@ -64,7 +64,7 @@ Manila, Philippines
 			</div>
 		</div>
 	</div>
-    <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
+    <div class="col-4 mb-3 sm:col-6 md:col-4 md:mb-1 lg:col-4">
 		<div class="am-card h-full bg-white">
 			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-frontend.png" loading="lazy" alt="Frontend" class="card-thumbnail-img" />
@@ -75,7 +75,7 @@ Manila, Philippines
 			</div>
 		</div>
 	</div>
-    <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
+    <div class="col-4 mb-3 sm:col-6 md:col-4 md:mb-1 lg:col-4">
 		<div class="am-card h-full bg-white">
 			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-uiux.png" loading="lazy" alt="UI/UX" class="card-thumbnail-img" />
@@ -86,7 +86,7 @@ Manila, Philippines
 			</div>
 		</div>
 	</div>
-    <div class="col-4 mb-3 md:col-4 md:mb-1 lg:col-4">
+    <div class="col-4 mb-3 sm:col-6 md:col-4 md:mb-1 lg:col-4">
 		<div class="am-card h-full bg-white">
 			<!-- <div class="card-thumbnail">
 				<img src="assets/images/skills-misc.png" loading="lazy" alt="Misc" class="card-thumbnail-img" />
