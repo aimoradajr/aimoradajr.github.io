@@ -47,7 +47,7 @@ Manila, Philippines
 			</div> -->
 			<div class="card-content">
 				<h3 class="mt-2 mb-3">Backend & Database Management</h3>
-				<p>Experience with <strong>Node.js</strong>, <strong>ExpressJS</strong>, <strong>NestJS</strong>, <strong>PHP</strong>, <strong>C</strong>, <strong><span style="white-space: nowrap;">C++</span></strong>, <strong>Perl</strong>, and <strong>SQL</strong>.
+				<p>Experience with <strong>Node.js</strong>, <strong>ExpressJS</strong>, <strong>NestJS</strong>, <strong>PHP</strong>, <strong>C</strong>, <strong><span style="white-space: nowrap;">C++</span></strong>, <strong>Perl</strong>, <strong>SQL</strong>, and <strong>OpenAI API</strong>.
 				<!-- Skilled in version control using <strong>Git</strong> and platforms like <strong>GitHub</strong> and <strong>Bitbucket</strong>. -->
 			</p>
 			</div>
