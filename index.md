@@ -247,11 +247,11 @@ Manila, Philippines
 <h2 id="me" class="font-bold text-black-alpha-90 mt-8 sm:mt-8 md:mt-5 text-center sm:text-center md:text-left">Me</h2>
 
 <div class="text-center sm:text-center md:text-left">
-	<img class="border-3 border-round-2xl w-4" src="/assets/images/ariel-photo-border2.png" alt="Me" />
+	<img class="border-3 border-round-2xl w-4" src="/assets/images/ariel-photo-singapore-border2.png" alt="Me" />
 </div>
 
 <p class="text-base font-normal mt-1 text-center sm:text-center md:text-left">
-This is me afk, circa 2021.
+	This is me, circa 2024.
 </p>
 
 <!-- NOTES -->
