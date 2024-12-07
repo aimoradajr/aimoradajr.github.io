@@ -97,6 +97,16 @@ Manila, Philippines
 			</div>
 		</div>
 	</div>
+	<div class="mb-1 col-12 sm:mb-3 sm:col-6 md:col-4 md:mb-1 lg:col-4">
+		<div class="am-card h-full bg-white">
+			<div class="card-content">
+			<h3 class="mt-2 mb-3">Testing</h3>
+			<p>
+				Incorporating <strong>Test-Driven Development (TDD)</strong> methodologies, along with testing frameworks such as <strong>Jest</strong>, <strong>Jasmine</strong>, <strong>Karma</strong>.
+			</p>
+			</div>
+		</div>
+	</div>
 </div>
 
 <!-- PROFESSIONAL EXPERIENCE -->
@@ -155,6 +165,38 @@ Manila, Philippines
 <h2 id="projects" class="mt-4 font-bold text-black-alpha-90 text-center sm:text-center md:text-left">Projects</h2>
 
 <div class="grid projects-grid">
+	<div class="col-12">
+		<div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+			<!-- Thumbnail Section -->
+			<div class="card-thumbnail flex-1">
+				<div class="project-image-container">
+					<a href="assets/images/projects/directus-ai-field.gif" class="popup-link">
+					<img src="assets/images/projects/directus-ai-field-thumb.png" alt="directus-ai-field-thumb" class="w-full h-auto">
+					</a>
+				</div>
+			</div>
+    		<!-- Content Section -->
+    		<div class="card-content flex-1 p-3 flex flex-column">
+				<h2 class="mt-2 mb-1">Directus 'AI Field' extension <span class="text-sm text-500">2024</span></h2>
+				<p class="text-xs">
+					A Directus extension that enables users to configure prompts for automatic content generation via OpenAI
+				</p>
+				<div class="pt-3">
+					<div class="am-tech-tag">Directus v11.2.2</div>
+					<div class="am-tech-tag" style="color: #42b883; border-color: #42b883">Vue.js v3.4</div>
+					<div class="am-tech-tag">TypeScript</div>
+					<div class="am-tech-tag" style="color: purple; border-color: purple">OpenAI GPT-4.0</div>
+					<!-- <div class="am-tech-tag-sub">PostgreSQL v8.13.1</div> -->
+				</div>
+				<!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
+					<span class="mr-2 text-sm">View Project</span>
+					<i class="fas fa-external-link-alt"></i>
+					</a>
+				</div> -->
+    		</div>
+    	</div>
+	</div>
 	<div class="col-12">
 		<div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
 			<!-- Thumbnail Section -->
