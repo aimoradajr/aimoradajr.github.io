@@ -11,6 +11,7 @@ Keep track of all the updates and improvements made to this website.
 ## v1.1 - Jan 4, 2025
 
 - Contact Us page
+- Added Project: Philippine Metro
 
 ## v1.0 - Nov 25, 2024
 

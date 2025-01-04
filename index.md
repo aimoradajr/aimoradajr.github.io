@@ -170,6 +170,40 @@ Manila, Philippines
 			<!-- Thumbnail Section -->
 			<div class="card-thumbnail flex-1">
 				<div class="project-image-container">
+					<a href="assets/images/projects/ph-metro-thumb.png" class="popup-link">
+					<img src="assets/images/projects/ph-metro-thumb.png" alt="directus-ai-field-thumb" class="w-full h-auto">
+					</a>
+				</div>
+			</div>
+    		<!-- Content Section -->
+    		<div class="card-content flex-1 p-3 flex flex-column">
+				<h2 class="mt-2 mb-1"><span class="text-sm text-500">[Testing] </span>Philippine Metro <span class="text-sm text-500">2025</span></h2>
+				<p class="text-xs">
+					A mobile app to navigate Manila's MRT and LRT with station guides, routes, and stops.
+				</p>
+				<div class="pt-3">
+					<div class="am-tech-tag">Angular v18</div>
+					<div class="am-tech-tag" style="color: #3880ff; border-color: #3880ff">Ionic Framework v8</div>
+					<div class="am-tech-tag" style="color: #3880ff; border-color: #3880ff">Capacitor v6</div>
+					<div class="am-tech-tag" style="color: #3ddc84; border-color: #3ddc84">Android</div>
+					<div class="am-tech-tag-sub">TypeScript</div>
+					<div class="am-tech-tag-sub">Midjourney/ChatGPT (Images)</div>
+					<div class="am-tech-tag" style="color: #ff3a3a; border-color: #ff3a3a">Google Maps JavaScript API</div>
+				</div>
+				<!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
+					<span class="mr-2 text-sm">View Project</span>
+					<i class="fas fa-external-link-alt"></i>
+					</a>
+				</div> -->
+    		</div>
+    	</div>
+	</div>
+	<div class="col-12">
+		<div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+			<!-- Thumbnail Section -->
+			<div class="card-thumbnail flex-1">
+				<div class="project-image-container">
 					<a href="assets/images/projects/directus-ai-field.gif" class="popup-link">
 					<img src="assets/images/projects/directus-ai-field-thumb.png" alt="directus-ai-field-thumb" class="w-full h-auto">
 					</a>
