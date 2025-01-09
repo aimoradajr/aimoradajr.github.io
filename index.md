@@ -170,19 +170,19 @@ Manila, Philippines
 			<!-- Thumbnail Section -->
 			<div class="card-thumbnail flex-1">
 				<div class="project-image-container">
-					<a href="assets/images/projects/pending-thumb.png" class="popup-link">
-					<img src="assets/images/projects/pending-thumb.png" alt="directus-ai-field-thumb" class="w-full h-auto">
+					<a href="assets/images/projects/agent-ino-thumb.png" class="popup-link">
+					<img src="assets/images/projects/agent-ino-thumb.png" alt="directus-ai-field-thumb" class="w-full h-auto">
 					</a>
 				</div>
 			</div>
     		<!-- Content Section -->
     		<div class="card-content flex-1 p-3 flex flex-column">
-				<h2 class="mt-2 mb-1"><span class="text-sm text-500">[In-Progress] </span>Agent Ino <span class="text-sm text-500">2025</span></h2>
+				<h2 class="mt-2 mb-1"><span class="text-sm text-500"></span>Agent Ino <span class="text-sm text-500">2025</span></h2>
 				<p class="text-xs">
 					A personalized AI assistant integrated into my portfolio website, designed to engage visitors, answer queries, and showcase my skills and projects interactively.
 				</p>
 				<div class="pt-3">
-					<div class="am-tech-tag-sub">Botpress</div>
+					<div class="am-tech-tag">Botpress</div>
 				</div>
 				<!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
 					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
