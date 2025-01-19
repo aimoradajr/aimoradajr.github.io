@@ -8,12 +8,17 @@ permalink: /version-history/
 
 Keep track of all the updates and improvements made to this website.
 
-## v1.1 - Jan 4, 2025
+## v1.0.2 - Jan 5, 2025
+
+- Added Project: Agent Ino
+- Added Project: Site: Queenflute PH
+
+## v1.0.1 - Jan 4, 2025
 
 - Contact Us page
 - Added Project: Philippine Metro
 
-## v1.0 - Nov 25, 2024
+## v1.0.0 - Nov 25, 2024
 
 - Initial launch of the website.
 - Features include a homepage, About section, Skils section, Professional Experience section, and Projects section.

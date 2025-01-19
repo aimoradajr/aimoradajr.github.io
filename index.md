@@ -170,8 +170,41 @@ Manila, Philippines
 			<!-- Thumbnail Section -->
 			<div class="card-thumbnail flex-1">
 				<div class="project-image-container">
+					<a href="assets/images/projects/kingflute-ph-site.png" class="popup-link">
+					<img src="assets/images/projects/kingflute-ph-site-thumb.png" alt="kingflute-ph-site-thumb" class="w-full h-auto">
+					</a>
+				</div>
+			</div>
+    		<!-- Content Section -->
+    		<div class="card-content flex-1 p-3 flex flex-column">
+				<h2 class="mt-2 mb-1"><span class="text-sm text-500"></span>Site: Queenflute PH <span class="text-sm text-500">2025</span></h2>
+				<p class="text-xs">
+					A personal project website featuring handcrafted bamboo flutes, blending traditional Filipino craftsmanship with modern design.
+				</p>
+				<div class="pt-3">
+					<div class="am-tech-tag" style="color: #61dafb; border-color: #61dafb">React</div>
+					<div class="am-tech-tag">TailwindCSS</div>
+					<div class="am-tech-tag-sub">Tailwind Scrollbar</div>
+					<div class="am-tech-tag-sub">Stackblitz</div>
+					<div class="am-tech-tag-sub">Github Pages</div>
+					<div class="am-tech-tag-sub">Midjourney/Dall-E</div>
+				</div>
+				<div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+					<a href="https://aimoradajr.xyz/kingflute-ph-site/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
+					<span class="mr-2 text-sm">View Project</span>
+					<i class="fas fa-external-link-alt"></i>
+					</a>
+				</div>
+    		</div>
+    	</div>
+	</div>
+	<div class="col-12">
+		<div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+			<!-- Thumbnail Section -->
+			<div class="card-thumbnail flex-1">
+				<div class="project-image-container">
 					<a href="assets/images/projects/agent-ino-thumb.png" class="popup-link">
-					<img src="assets/images/projects/agent-ino-thumb.png" alt="directus-ai-field-thumb" class="w-full h-auto">
+					<img src="assets/images/projects/agent-ino-thumb.png" alt="agent-ino-thumb-thumb" class="w-full h-auto">
 					</a>
 				</div>
 			</div>
