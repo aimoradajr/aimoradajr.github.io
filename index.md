@@ -165,209 +165,372 @@ Manila, Philippines
 <h2 id="projects" class="mt-4 font-bold text-black-alpha-90 text-center sm:text-center md:text-left">Projects</h2>
 
 <div class="grid projects-grid">
-	<div class="col-12">
-		<div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
-			<!-- Thumbnail Section -->
-			<div class="card-thumbnail flex-1">
-				<div class="project-image-container">
-					<a href="assets/images/projects/kingflute-ph-site.png" class="popup-link">
-					<img src="assets/images/projects/kingflute-ph-site-thumb.png" alt="kingflute-ph-site-thumb" class="w-full h-auto">
-					</a>
-				</div>
-			</div>
-    		<!-- Content Section -->
-    		<div class="card-content flex-1 p-3 flex flex-column">
-				<h2 class="mt-2 mb-1"><span class="text-sm text-500"></span>Site: Queenflute PH <span class="text-sm text-500">2025</span></h2>
-				<p class="text-xs">
-					A personal project website featuring handcrafted bamboo flutes, blending traditional Filipino craftsmanship with modern design.
-				</p>
-				<div class="pt-3">
-					<div class="am-tech-tag" style="color: #61dafb; border-color: #61dafb">React</div>
-					<div class="am-tech-tag">TailwindCSS</div>
-					<div class="am-tech-tag-sub">Tailwind Scrollbar</div>
-					<div class="am-tech-tag-sub">Stackblitz</div>
-					<div class="am-tech-tag-sub">Github Pages</div>
-					<div class="am-tech-tag-sub">Midjourney/Dall-E</div>
-				</div>
-				<div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
-					<a href="https://aimoradajr.xyz/kingflute-ph-site/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
-					<span class="mr-2 text-sm">View Project</span>
-					<i class="fas fa-external-link-alt"></i>
-					</a>
-				</div>
-    		</div>
-    	</div>
-	</div>
-	<div class="col-12">
-		<div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
-			<!-- Thumbnail Section -->
-			<div class="card-thumbnail flex-1">
-				<div class="project-image-container">
-					<a href="assets/images/projects/agent-ino-thumb.png" class="popup-link">
-					<img src="assets/images/projects/agent-ino-thumb.png" alt="agent-ino-thumb-thumb" class="w-full h-auto">
-					</a>
-				</div>
-			</div>
-    		<!-- Content Section -->
-    		<div class="card-content flex-1 p-3 flex flex-column">
-				<h2 class="mt-2 mb-1"><span class="text-sm text-500"></span>Agent Ino <span class="text-sm text-500">2025</span></h2>
-				<p class="text-xs">
-					A personalized AI assistant integrated into my portfolio website, designed to engage visitors, answer queries, and showcase my skills and projects interactively.
-				</p>
-				<div class="pt-3">
-					<div class="am-tech-tag">Botpress</div>
-				</div>
-				<!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
-					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
-					<span class="mr-2 text-sm">View Project</span>
-					<i class="fas fa-external-link-alt"></i>
-					</a>
-				</div> -->
-    		</div>
-    	</div>
-	</div>
-	<div class="col-12">
-		<div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
-			<!-- Thumbnail Section -->
-			<div class="card-thumbnail flex-1">
-				<div class="project-image-container">
-					<a href="assets/images/projects/ph-metro-thumb.png" class="popup-link">
-					<img src="assets/images/projects/ph-metro-thumb.png" alt="directus-ai-field-thumb" class="w-full h-auto">
-					</a>
-				</div>
-			</div>
-    		<!-- Content Section -->
-    		<div class="card-content flex-1 p-3 flex flex-column">
-				<h2 class="mt-2 mb-1"><span class="text-sm text-500">[Testing] </span>Philippine Metro <span class="text-sm text-500">2025</span></h2>
-				<p class="text-xs">
-					A mobile app to navigate Manila's MRT and LRT with station guides, routes, and stops.
-				</p>
-				<div class="pt-3">
-					<div class="am-tech-tag">Angular v18</div>
-					<div class="am-tech-tag" style="color: #3880ff; border-color: #3880ff">Ionic Framework v8</div>
-					<div class="am-tech-tag" style="color: #3880ff; border-color: #3880ff">Capacitor v6</div>
-					<div class="am-tech-tag" style="color: #3ddc84; border-color: #3ddc84">Android</div>
-					<div class="am-tech-tag-sub">TypeScript</div>
-					<div class="am-tech-tag-sub">Midjourney/ChatGPT (Images)</div>
-					<div class="am-tech-tag" style="color: #ff3a3a; border-color: #ff3a3a">Google Maps JavaScript API</div>
-				</div>
-				<!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
-					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
-					<span class="mr-2 text-sm">View Project</span>
-					<i class="fas fa-external-link-alt"></i>
-					</a>
-				</div> -->
-    		</div>
-    	</div>
-	</div>
-	<div class="col-12">
-		<div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
-			<!-- Thumbnail Section -->
-			<div class="card-thumbnail flex-1">
-				<div class="project-image-container">
-					<a href="assets/images/projects/directus-ai-field.gif" class="popup-link">
-					<img src="assets/images/projects/directus-ai-field-thumb.png" alt="directus-ai-field-thumb" class="w-full h-auto">
-					</a>
-				</div>
-			</div>
-    		<!-- Content Section -->
-    		<div class="card-content flex-1 p-3 flex flex-column">
-				<h2 class="mt-2 mb-1">Directus 'AI Field' extension <span class="text-sm text-500">2024</span></h2>
-				<p class="text-xs">
-					A Directus extension that enables users to configure prompts for automatic content generation via OpenAI
-				</p>
-				<div class="pt-3">
-					<div class="am-tech-tag">Directus v11.2.2</div>
-					<div class="am-tech-tag" style="color: #42b883; border-color: #42b883">Vue.js v3.4</div>
-					<div class="am-tech-tag">TypeScript</div>
-					<div class="am-tech-tag" style="color: purple; border-color: purple">OpenAI GPT-4.0</div>
-					<!-- <div class="am-tech-tag-sub">PostgreSQL v8.13.1</div> -->
-				</div>
-				<!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
-					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
-					<span class="mr-2 text-sm">View Project</span>
-					<i class="fas fa-external-link-alt"></i>
-					</a>
-				</div> -->
-    		</div>
-    	</div>
-	</div>
-	<div class="col-12">
-		<div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
-			<!-- Thumbnail Section -->
-			<div class="card-thumbnail flex-1">
-				<div class="project-image-container">
-					<a href="assets/images/projects/ph_vote_map.gif" class="popup-link">
-					<img src="assets/images/projects/ph-vote-map-thumb.png" alt="ph-vote-map-thumb" class="w-full h-auto">
-					</a>
-				</div>
-			</div>
-    		<!-- Content Section -->
-    		<div class="card-content flex-1 p-3 flex flex-column">
-				<h2 class="mt-2 mb-1">PH Vote Map <span class="text-sm text-500">2024</span></h2>
-				<p class="text-xs">
-					An interactive visualization tool that displays election results across the Philippines, highlighting leading and confirmed winners in each region.
-				</p>
-				<div class="pt-3">
-					<div class="am-tech-tag">Angular v18.1.0</div>
-					<div class="am-tech-tag" style="color: #199900; border-color: #199900">Leaflet v1.9.4</div>
-					<div class="am-tech-tag">faeldon/philippines-json-maps</div>
-					<div class="am-tech-tag-sub">Font Awesome v6.0.0</div>
-					<div class="am-tech-tag-sub">Stackblitz</div>
-					<div class="am-tech-tag-sub">Github Pages</div>
-				</div>
-				<div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
-					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
-					<span class="mr-2 text-sm">View Project</span>
-					<i class="fas fa-external-link-alt"></i>
-					</a>
-				</div>
-    		</div>
-    	</div>
-	</div>
-    <div class="col-12">
-		<div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
-			<!-- Thumbnail Section -->
-			<div class="card-thumbnail flex-1">
-				<div class="project-image-container">
-					<a href="assets/images/projects/ai_scheduling.gif" class="popup-link">
-					<img src="assets/images/projects/ai-scheduling-thumb.png" alt="ai-scheduling-thumb" class="w-full h-auto">
-					</a>
-				</div>
-			</div>
-			<!-- Content Section -->
-			<div class="card-content flex-1 p-3 flex flex-column">
-				<h2 class="mt-2 mb-1" title="AI-Powered Class Scheduling">AI Class Scheduling <span class="text-sm text-500">2024</span></h2>
-				<p class="text-xs">
-					AI-Powered Class Scheduling uses OpenAI's AI model (<strong>gpt-4o</strong>) to analyze data, resolve conflicts, and optimize schedules for courses, rooms, teachers, and students.
-				</p>
-				<div class="pt-3">
-					<!-- Backend Technologies -->
-					<div class="am-tech-tag">Node.js v20.x</div>
-					<div class="am-tech-tag">Express.js v4.21.1</div>
-					<div class="am-tech-tag" style="color: purple; border-color: purple">OpenAI GPT-4.0</div>
-					<div class="am-tech-tag">AWS Lambda</div>
-					<div class="am-tech-tag" title="Serverless Framework">Serverless</div>
-					<!-- divider -->
-					<div class="border-top-2 mx-3 mt-1 mb-2 border-gray-400 hidden sm:block"></div>
-    				<!-- Frontend Technologies -->
-    				<div class="am-tech-tag">Angular v18.1.0</div>
-    				<div class="am-tech-tag">Tailwind CSS</div>
-    				<div class="am-tech-tag">FullCalendar v6.1.15</div>
-    				<div class="am-tech-tag-sub">Stackblitz</div>
-    			</div>
-    			<div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
-    				<a href="https://stackblitz.com/edit/stackblitz-starters-6tidvq?file=src%2Fmain.html"
-    				target="_blank"
-    				class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
-    				<span class="mr-2 text-sm">View Project</span>
-    				<i class="fas fa-external-link-alt"></i>
-    				</a>
-    			</div>
-    		</div>
-    	</div>
+  <!-- Project: Jan2025 -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a href="assets/images/projects/pending-thumb.png" class="popup-link">
+            <img
+              src="assets/images/projects/pending-thumb.png"
+              alt="pending-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500"></span>Project: [Jan2025]
+          <span class="text-sm text-500">2025</span>
+        </h2>
+        <p class="text-xs">
+		  Automation. Customer Relationship Management. Field Service Management. Marketing Automation. Headless CMS. 
+        </p>
+        <div class="pt-3">
+          <div class="am-tech-tag-sub">n8n</div>
+          <div class="am-tech-tag-sub">GoHighLevel</div>
+          <div class="am-tech-tag-sub">FieldRoutes</div>
+          <div class="am-tech-tag-sub">Directus</div>
+          <div class="am-tech-tag-sub">Sendspark</div>
+          <div class="am-tech-tag-sub">Trello</div>
+        </div>
+        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+          <a
+            href="https://aimoradajr.xyz/kingflute-ph-site/"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div> -->
+      </div>
     </div>
 
+  </div>
+  <!-- Project: Kingflute PH Site -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a
+            href="assets/images/projects/kingflute-ph-site.png"
+            class="popup-link"
+          >
+            <img
+              src="assets/images/projects/kingflute-ph-site-thumb.png"
+              alt="kingflute-ph-site-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500"></span>Site: Queenflute PH
+          <span class="text-sm text-500">2025</span>
+        </h2>
+        <p class="text-xs">
+          A personal project website featuring handcrafted bamboo flutes,
+          blending traditional Filipino craftsmanship with modern design.
+        </p>
+        <div class="pt-3">
+          <div
+            class="am-tech-tag"
+            style="color: #61dafb; border-color: #61dafb"
+          >
+            React
+          </div>
+          <div class="am-tech-tag">TailwindCSS</div>
+          <div class="am-tech-tag-sub">Tailwind Scrollbar</div>
+          <div class="am-tech-tag-sub">Stackblitz</div>
+          <div class="am-tech-tag-sub">Github Pages</div>
+          <div class="am-tech-tag-sub">Midjourney/Dall-E</div>
+        </div>
+        <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+          <a
+            href="https://aimoradajr.xyz/kingflute-ph-site/"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Project: Agent Ino -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a
+            href="assets/images/projects/agent-ino-thumb.png"
+            class="popup-link"
+          >
+            <img
+              src="assets/images/projects/agent-ino-thumb.png"
+              alt="agent-ino-thumb-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500"></span>Agent Ino
+          <span class="text-sm text-500">2025</span>
+        </h2>
+        <p class="text-xs">
+          A personalized AI assistant integrated into my portfolio website,
+          designed to engage visitors, answer queries, and showcase my skills
+          and projects interactively.
+        </p>
+        <div class="pt-3">
+          <div class="am-tech-tag">Botpress</div>
+        </div>
+        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
+					<span class="mr-2 text-sm">View Project</span>
+					<i class="fas fa-external-link-alt"></i>
+					</a>
+				</div> -->
+      </div>
+    </div>
+  </div>
+  <!-- Project: PH Metro -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a
+            href="assets/images/projects/ph-metro-thumb.png"
+            class="popup-link"
+          >
+            <img
+              src="assets/images/projects/ph-metro-thumb.png"
+              alt="directus-ai-field-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500">[Testing] </span>Philippine Metro
+          <span class="text-sm text-500">2025</span>
+        </h2>
+        <p class="text-xs">
+          A mobile app to navigate Manila's MRT and LRT with station guides,
+          routes, and stops.
+        </p>
+        <div class="pt-3">
+          <div class="am-tech-tag">Angular v18</div>
+          <div
+            class="am-tech-tag"
+            style="color: #3880ff; border-color: #3880ff"
+          >
+            Ionic Framework v8
+          </div>
+          <div
+            class="am-tech-tag"
+            style="color: #3880ff; border-color: #3880ff"
+          >
+            Capacitor v6
+          </div>
+          <div
+            class="am-tech-tag"
+            style="color: #3ddc84; border-color: #3ddc84"
+          >
+            Android
+          </div>
+          <div class="am-tech-tag-sub">TypeScript</div>
+          <div class="am-tech-tag-sub">Midjourney/ChatGPT (Images)</div>
+          <div
+            class="am-tech-tag"
+            style="color: #ff3a3a; border-color: #ff3a3a"
+          >
+            Google Maps JavaScript API
+          </div>
+        </div>
+        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
+					<span class="mr-2 text-sm">View Project</span>
+					<i class="fas fa-external-link-alt"></i>
+					</a>
+				</div> -->
+      </div>
+    </div>
+  </div>
+  <!-- Project: Directus 'AI Field' extension -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a
+            href="assets/images/projects/directus-ai-field.gif"
+            class="popup-link"
+          >
+            <img
+              src="assets/images/projects/directus-ai-field-thumb.png"
+              alt="directus-ai-field-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          Directus 'AI Field' extension
+          <span class="text-sm text-500">2024</span>
+        </h2>
+        <p class="text-xs">
+          A Directus extension that enables users to configure prompts for
+          automatic content generation via OpenAI
+        </p>
+        <div class="pt-3">
+          <div class="am-tech-tag">Directus v11.2.2</div>
+          <div
+            class="am-tech-tag"
+            style="color: #42b883; border-color: #42b883"
+          >
+            Vue.js v3.4
+          </div>
+          <div class="am-tech-tag">TypeScript</div>
+          <div class="am-tech-tag" style="color: purple; border-color: purple">
+            OpenAI GPT-4.0
+          </div>
+          <!-- <div class="am-tech-tag-sub">PostgreSQL v8.13.1</div> -->
+        </div>
+        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
+					<span class="mr-2 text-sm">View Project</span>
+					<i class="fas fa-external-link-alt"></i>
+					</a>
+				</div> -->
+      </div>
+    </div>
+  </div>
+  <!-- Project: PH Vote Map -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a href="assets/images/projects/ph_vote_map.gif" class="popup-link">
+            <img
+              src="assets/images/projects/ph-vote-map-thumb.png"
+              alt="ph-vote-map-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          PH Vote Map <span class="text-sm text-500">2024</span>
+        </h2>
+        <p class="text-xs">
+          An interactive visualization tool that displays election results
+          across the Philippines, highlighting leading and confirmed winners in
+          each region.
+        </p>
+        <div class="pt-3">
+          <div class="am-tech-tag">Angular v18.1.0</div>
+          <div
+            class="am-tech-tag"
+            style="color: #199900; border-color: #199900"
+          >
+            Leaflet v1.9.4
+          </div>
+          <div class="am-tech-tag">faeldon/philippines-json-maps</div>
+          <div class="am-tech-tag-sub">Font Awesome v6.0.0</div>
+          <div class="am-tech-tag-sub">Stackblitz</div>
+          <div class="am-tech-tag-sub">Github Pages</div>
+        </div>
+        <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+          <a
+            href="https://aimoradajr.xyz/ph-vote-map/"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Project: AI Class Scheduling -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a href="assets/images/projects/ai_scheduling.gif" class="popup-link">
+            <img
+              src="assets/images/projects/ai-scheduling-thumb.png"
+              alt="ai-scheduling-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1" title="AI-Powered Class Scheduling">
+          AI Class Scheduling <span class="text-sm text-500">2024</span>
+        </h2>
+        <p class="text-xs">
+          AI-Powered Class Scheduling uses OpenAI's AI model
+          (<strong>gpt-4o</strong>) to analyze data, resolve conflicts, and
+          optimize schedules for courses, rooms, teachers, and students.
+        </p>
+        <div class="pt-3">
+          <!-- Backend Technologies -->
+          <div class="am-tech-tag">Node.js v20.x</div>
+          <div class="am-tech-tag">Express.js v4.21.1</div>
+          <div class="am-tech-tag" style="color: purple; border-color: purple">
+            OpenAI GPT-4.0
+          </div>
+          <div class="am-tech-tag">AWS Lambda</div>
+          <div class="am-tech-tag" title="Serverless Framework">Serverless</div>
+          <!-- divider -->
+          <div
+            class="border-top-2 mx-3 mt-1 mb-2 border-gray-400 hidden sm:block"
+          ></div>
+          <!-- Frontend Technologies -->
+          <div class="am-tech-tag">Angular v18.1.0</div>
+          <div class="am-tech-tag">Tailwind CSS</div>
+          <div class="am-tech-tag">FullCalendar v6.1.15</div>
+          <div class="am-tech-tag-sub">Stackblitz</div>
+        </div>
+        <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+          <a
+            href="https://stackblitz.com/edit/stackblitz-starters-6tidvq?file=src%2Fmain.html"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- EDUCATION -->
@@ -381,28 +544,51 @@ Manila, Philippines
 -->
 
 <!-- ME -->
-<h2 id="me" class="font-bold text-black-alpha-90 mt-8 sm:mt-8 md:mt-5 text-center sm:text-center md:text-left">Me</h2>
+<h2
+  id="me"
+  class="font-bold text-black-alpha-90 mt-8 sm:mt-8 md:mt-5 text-center sm:text-center md:text-left"
+>
+  Me
+</h2>
 
 <div class="text-center sm:text-center md:text-left">
-	<img class="border-3 border-round-2xl w-4" src="/assets/images/ariel-photo-singapore-border2.png" alt="Me" />
+  <img
+    class="border-3 border-round-2xl w-4"
+    src="/assets/images/ariel-photo-singapore-border2.png"
+    alt="Me"
+  />
 </div>
 
 <p class="text-base font-normal mt-1 text-center sm:text-center md:text-left">
-	This is me, circa 2024.
+  This is me, circa 2024.
 </p>
 
 <!-- NOTES -->
-<p class="text-xs font-normal text-700 text-center sm:text-center md:text-left" style="margin-top: 10rem">
-Started with the Jekyll Minimal theme, customized it to fit a Neo-Brutalist-inspired style. Used PrimeFlex for layout structure and styling, incorporated Midjourney-generated images for a unique visual touch, and hosted it all through GitHub Pages.
+<p
+  class="text-xs font-normal text-700 text-center sm:text-center md:text-left"
+  style="margin-top: 10rem"
+>
+  Started with the Jekyll Minimal theme, customized it to fit a
+  Neo-Brutalist-inspired style. Used PrimeFlex for layout structure and styling,
+  incorporated Midjourney-generated images for a unique visual touch, and hosted
+  it all through GitHub Pages.
 </p>
 
 <script>
-  $(document).ready(function() {
-    $('.popup-link').magnificPopup({
-      type: 'image',
+  $(document).ready(function () {
+    $(".popup-link").magnificPopup({
+      type: "image",
       gallery: {
-        enabled: true // Set to true to enable gallery mode
-      }
+        enabled: true, // Set to true to enable gallery mode
+      },
     });
   });
 </script>
+
+```
+
+```
+
+```
+
+```
