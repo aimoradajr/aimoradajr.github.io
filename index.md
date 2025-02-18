@@ -165,6 +165,43 @@ Manila, Philippines
 <h2 id="projects" class="mt-4 font-bold text-black-alpha-90 text-center sm:text-center md:text-left">Projects</h2>
 
 <div class="grid projects-grid">
+  <!-- Project: Newfields Site -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a
+            href="assets/images/projects/newfields-site/newfields-site.png"
+            class="popup-link"
+          >
+            <img
+              src="assets/images/projects/newfields-site/newfields-site-thumb.png"
+              alt="newfields-site-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500"></span>Site: Newfields
+          <span class="text-sm text-500">2025</span>
+        </h2>
+        <p class="text-xs">
+          Newfields is a company site.
+        </p>
+        <div class="pt-3">
+          <div class="am-tech-tag">Bolt.new</div>
+          <div class="am-tech-tag-sub">Netlify</div>
+          <div class="am-tech-tag-sub">React</div>
+        </div>
+        <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Project: House Ino PH Site -->
   <div class="col-12">
     <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
