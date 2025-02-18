@@ -8,6 +8,10 @@ permalink: /version-history/
 
 Keep track of all the updates and improvements made to this website.
 
+## v1.0.4 - Feb 18, 2025
+
+- Added Project: Site: House Ino
+
 ## v1.0.3 - Jan 24, 2025
 
 - Added Project Gig: Marketing Automation

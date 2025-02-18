@@ -165,6 +165,45 @@ Manila, Philippines
 <h2 id="projects" class="mt-4 font-bold text-black-alpha-90 text-center sm:text-center md:text-left">Projects</h2>
 
 <div class="grid projects-grid">
+  <!-- Project: House Ino PH Site -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a
+            href="assets/images/projects/house-ino/house-ino-site.png"
+            class="popup-link"
+          >
+            <img
+              src="assets/images/projects/house-ino/house-ino-thumb.png"
+              alt="house-ino-site-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500"></span>Site: House Ino
+          <span class="text-sm text-500">2025</span>
+        </h2>
+        <p class="text-xs">
+          House Ino is a personal project developed to enhance my web development skills, featuring a Squarespace-based platform that connects families with pet-friendly homes.
+        </p>
+        <div class="pt-3">
+          <div class="am-tech-tag">Squarespace v7.1</div>
+          <div class="am-tech-tag-sub">Midjourney/Dall-E</div>
+        </div>
+        <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mini Project: SEO Optimization. French Productions -->
+
   <!-- Project: Jan2025 -->
   <div class="col-12">
     <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
