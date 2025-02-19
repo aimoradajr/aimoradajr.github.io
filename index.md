@@ -165,6 +165,51 @@ Manila, Philippines
 <h2 id="projects" class="mt-4 font-bold text-black-alpha-90 text-center sm:text-center md:text-left">Projects</h2>
 
 <div class="grid projects-grid">
+  <!-- Project: Feb2025 -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a href="assets/images/projects/pending-thumb.png" class="popup-link">
+            <img
+              src="assets/images/projects/pending-thumb.png"
+              alt="pending-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500"></span>Project: [Feb2025]
+          <span class="text-sm text-500">2025</span>
+        </h2>
+        <p class="text-xs">
+		  Automation. Customer Relationship Management. Marketing Automation. Headless CMS. 
+        </p>
+        <div class="pt-3">
+          <div class="am-tech-tag">Selenium</div>
+          <div class="am-tech-tag-sub">n8n</div>
+          <div class="am-tech-tag-sub">GoHighLevel</div>
+          <div class="am-tech-tag-sub">CallRail</div>
+          <div class="am-tech-tag-sub">WhatConverts</div>
+          <div class="am-tech-tag-sub">Directus</div>
+        </div>
+        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+          <a
+            href="https://aimoradajr.xyz/kingflute-ph-site/"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </div>
   <!-- Project: Newfields Site -->
   <div class="col-12">
     <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
@@ -285,7 +330,6 @@ Manila, Philippines
         </div> -->
       </div>
     </div>
-
   </div>
   <!-- Project: Kingflute PH Site -->
   <div class="col-12">
