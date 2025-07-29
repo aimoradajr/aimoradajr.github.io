@@ -165,6 +165,95 @@ Manila, Philippines
 <h2 id="projects" class="mt-4 font-bold text-black-alpha-90 text-center sm:text-center md:text-left">Projects</h2>
 
 <div class="grid projects-grid">
+  <!-- Project: Openfields June2025-Present -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a href="assets/images/projects/openfields/openfields.png" class="popup-link">
+            <img
+              src="assets/images/projects/openfields/openfields-thumb.png"
+              alt="openfields-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500"></span>OpenFields
+          <span class="text-sm text-500">2025</span>
+        </h2>
+        <p class="text-xs">
+		  An interactive pet platform combining AI-generated pet illustrations with artistic themed backgrounds. Users upload pet photos, admins create custom cartoon illustrations using AI, and pets are placed on beautifully crafted scenes like parks and treehouses.
+        </p>
+        <!-- 
+        DETAILED PROJECT DESCRIPTION (HIDDEN - FOR FUTURE POPUP/PAGE):
+        
+        Project Duration: June 5, 2025 - Present (Ongoing)
+        Type: Personal Project
+        Role: Full-Stack Developer
+        
+        Project Overview:
+        OpenFields is a digital pet platform that combines artistic scene backgrounds with custom AI-generated pet illustrations. Users upload real pet photos, and admins create personalized cartoon illustrations using AI image generation. These custom pet illustrations are then placed on themed artwork scenes, creating an interactive gallery experience.
+        
+        Key Features:
+        - Artistic themes (City parks, treehouses, minimarts, and more)
+        - AI-generated illustrations (Custom cartoon pets created from real photos)
+        - Creative customization (Costumes, hats, actions, and more)
+        - Photo galleries (Upload up to 5 real pet photos with captions)
+        - Interactive viewing (Click pet illustrations to view photo galleries)
+        - Responsive design (Mobile and desktop optimized)
+        - Admin workflow (Tools for managing submissions and illustrations)
+        - Real-time sync (Supabase integration)
+        - Animated displays (Interactive pet illustration animations)
+        - Role-based access (Admin/public user permissions)
+        
+        Technologies Used:
+        Frontend: Angular 18, TypeScript, Tailwind CSS, SCSS
+        Backend: Supabase
+        Database: PostgreSQL with Row Level Security (RLS)
+        Authentication: Google OAuth, JWT
+        AI Image Generation: Midjourney for custom pet illustrations
+        Build: Angular CLI, Node.js
+        Deployment: Vercel (Frontend), Supabase (Backend)
+        
+        Architecture:
+        - Frontend (Angular) handles all user interaction, pet/photo uploads, and admin tools
+        - Communicates directly with Supabase for authentication, data, and storage
+        - Supabase provides PostgreSQL database, authentication, and file storage
+        - Security enforced using Row Level Security (RLS) and user roles
+        - No custom backend code—business logic handled by Supabase policies
+        
+        Live Demo: https://openfields-seven.vercel.app/mobile
+        
+        Current Status:
+        In active development
+        -->
+        <div class="pt-3">
+          <div class="am-tech-tag">Angular 18</div>
+          <div class="am-tech-tag-sub">TypeScript</div>
+          <div class="am-tech-tag-sub">Tailwind CSS</div>
+          <div class="am-tech-tag-sub">Supabase</div>
+          <div class="am-tech-tag-sub">PostgreSQL</div>
+          <div class="am-tech-tag-sub">Midjourney AI</div>
+        </div>
+        <div class="mb-1 mt-2 text-center sm:text-left">
+          <a
+            href="https://openfields-seven.vercel.app/mobile"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Project: Apr-May2025 -->
   <div class="col-12">
     <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
@@ -253,7 +342,7 @@ Manila, Philippines
           <div class="am-tech-tag-sub">Angular Migration</div>
           <div class="am-tech-tag-sub">Laravel API Integration</div>
         </div>
-        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        <!-- <div class="mb-1 mt-2 text-center sm:text-left">
           <a
             href="#"
             target="_blank"
@@ -294,7 +383,7 @@ Manila, Philippines
         <div class="pt-3">
           <div class="am-tech-tag">TBD</div>
         </div>
-        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        <!-- <div class="mb-1 mt-2 text-center sm:text-left">
           <a
             href="#"
             target="_blank"
@@ -340,7 +429,7 @@ Manila, Philippines
           <div class="am-tech-tag-sub">WhatConverts</div>
           <div class="am-tech-tag-sub">Directus</div>
         </div>
-        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        <!-- <div class="mb-1 mt-2 text-center sm:text-left">
           <a
             href="https://aimoradajr.xyz/kingflute-ph-site/"
             target="_blank"
@@ -385,7 +474,7 @@ Manila, Philippines
           <div class="am-tech-tag-sub">Netlify</div>
           <div class="am-tech-tag-sub">React</div>
         </div>
-        <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        <div class="mb-1 mt-2 text-center sm:text-left">
         </div>
       </div>
     </div>
@@ -421,7 +510,7 @@ Manila, Philippines
           <div class="am-tech-tag">Squarespace v7.1</div>
           <div class="am-tech-tag-sub">Midjourney/Dall-E</div>
         </div>
-        <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        <div class="mb-1 mt-2 text-center sm:text-left">
         </div>
       </div>
     </div>
@@ -461,7 +550,7 @@ Manila, Philippines
           <div class="am-tech-tag-sub">Sendspark</div>
           <div class="am-tech-tag-sub">Trello</div>
         </div>
-        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        <!-- <div class="mb-1 mt-2 text-center sm:text-left">
           <a
             href="https://aimoradajr.xyz/kingflute-ph-site/"
             target="_blank"
@@ -515,7 +604,7 @@ Manila, Philippines
           <div class="am-tech-tag-sub">Github Pages</div>
           <div class="am-tech-tag-sub">Midjourney/Dall-E</div>
         </div>
-        <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        <div class="mb-1 mt-2 text-center sm:text-left">
           <a
             href="https://aimoradajr.xyz/kingflute-ph-site/"
             target="_blank"
@@ -560,7 +649,7 @@ Manila, Philippines
         <div class="pt-3">
           <div class="am-tech-tag">Botpress</div>
         </div>
-        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        <!-- <div class="mb-1 mt-2 text-center sm:text-left">
 					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
 					<span class="mr-2 text-sm">View Project</span>
 					<i class="fas fa-external-link-alt"></i>
@@ -626,7 +715,7 @@ Manila, Philippines
             Google Maps JavaScript API
           </div>
         </div>
-        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        <!-- <div class="mb-1 mt-2 text-center sm:text-left">
 					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
 					<span class="mr-2 text-sm">View Project</span>
 					<i class="fas fa-external-link-alt"></i>
@@ -677,7 +766,7 @@ Manila, Philippines
           </div>
           <!-- <div class="am-tech-tag-sub">PostgreSQL v8.13.1</div> -->
         </div>
-        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        <!-- <div class="mb-1 mt-2 text-center sm:text-left">
 					<a href="https://aimoradajr.xyz/ph-vote-map/" target="_blank" class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap">
 					<span class="mr-2 text-sm">View Project</span>
 					<i class="fas fa-external-link-alt"></i>
@@ -724,7 +813,7 @@ Manila, Philippines
           <div class="am-tech-tag-sub">Stackblitz</div>
           <div class="am-tech-tag-sub">Github Pages</div>
         </div>
-        <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        <div class="mb-1 mt-2 text-center sm:text-left">
           <a
             href="https://aimoradajr.xyz/ph-vote-map/"
             target="_blank"
@@ -781,7 +870,7 @@ Manila, Philippines
           <div class="am-tech-tag">FullCalendar v6.1.15</div>
           <div class="am-tech-tag-sub">Stackblitz</div>
         </div>
-        <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+        <div class="mb-1 mt-2 text-center sm:text-left">
           <a
             href="https://stackblitz.com/edit/stackblitz-starters-6tidvq?file=src%2Fmain.html"
             target="_blank"
