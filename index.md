@@ -165,15 +165,158 @@ Manila, Philippines
 <h2 id="projects" class="mt-4 font-bold text-black-alpha-90 text-center sm:text-center md:text-left">Projects</h2>
 
 <div class="grid projects-grid">
+  <!-- Project: Apr-May2025 -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a href="assets/images/projects/pending-thumb4.png" class="popup-link">
+            <img
+              src="assets/images/projects/pending-thumb4.png"
+              alt="pending-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500"></span>Internal Order Management System
+          <span class="text-sm text-500">2025</span>
+        </h2>
+        <p class="text-xs">
+		  Contract work for a US-based printing company. Migrated their existing Angular 12 internal order management application to Angular 19, focusing on reimplementing the order processing workflow used by staff to manage t-shirt orders from various channels.
+        </p>
+        <!-- 
+        DETAILED PROJECT DESCRIPTION (HIDDEN - FOR FUTURE POPUP/PAGE):
+        
+        Project Duration: April 8 - May 20, 2025 (6 weeks)
+        Client: District Printing - US-based custom printing company specializing in t-shirts and apparel
+        Role: Frontend Developer (Contract)
+        
+        Project Overview:
+        Tasked with upgrading the company's existing Angular 12 internal order management system to Angular 19 (latest version at the time). The application is used by staff members to process orders received via email, messaging apps, and other channels. The primary focus was reimplementing critical frontend components, particularly the order processing workflow, while maintaining integration with their existing Laravel backend infrastructure.
+        
+        Key Responsibilities:
+        - Migrated existing Angular 12 codebase to Angular 19 with latest features and best practices
+        - Redesigned and reimplemented the internal order processing form from scratch
+        - Created comprehensive order management interface for staff to input t-shirt orders
+        - Implemented image upload and management system for customer-provided designs
+        - Built delivery date scheduling functionality with calendar integration
+        - Integrated with existing Laravel REST APIs and maintained data flow consistency
+        - Ensured cross-browser compatibility and optimal performance
+        - Collaborated with backend Laravel team to optimize API endpoints
+        - Conducted thorough testing and bug fixes throughout development cycle
+        
+        Main Component Reimplemented - Order Processing Form:
+        - Staff interface for inputting customer orders received via email/messaging
+        - T-shirt order details management (sizes, colors, quantities, customization options)
+        - Customer information and contact details tracking
+        - Delivery date selection with availability checking
+        - Image upload system for customer-provided designs and artwork
+        - Order status tracking and workflow management
+        - Real-time pricing calculations based on specifications
+        - Form validation and error handling for complex order data
+        - Integration with inventory management system
+        
+        Technical Challenges Solved:
+        - Migrated complex form logic from Angular 12 to Angular 19 reactive forms
+        - Implemented efficient file upload handling for design images
+        - Optimized API call patterns to reduce loading times and improve UX
+        - Created reusable form components for consistent order management
+        - Handled complex state management for multi-step order process
+        
+        Technologies Used:
+        - Angular 19 (latest features and migration strategies)
+        - TypeScript for type-safe development
+        - Angular Reactive Forms for complex form handling
+        - RxJS for reactive programming and API handling
+        - File upload libraries for image management
+        - Angular Material/PrimeNG for UI components
+        - SCSS for advanced styling and theming
+        - Laravel API integration
+        - Git version control with feature branch workflow
+        
+        Results Achieved:
+        - Successfully migrated from Angular 12 to Angular 19
+        - Delivered modern, responsive order submission system
+        - Improved form performance and user experience significantly
+        - Reduced code complexity and improved maintainability
+        - Enhanced order management workflow efficiency
+        - Seamless integration with existing backend systems
+        -->
+        <div class="pt-3">
+          <div class="am-tech-tag">Angular 19</div>
+          <div class="am-tech-tag-sub">TypeScript</div>
+          <div class="am-tech-tag-sub">Angular Migration</div>
+          <div class="am-tech-tag-sub">Laravel API Integration</div>
+        </div>
+        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+          <a
+            href="#"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Project: Mar2025 -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a href="assets/images/projects/pending-thumb4.png" class="popup-link">
+            <img
+              src="assets/images/projects/pending-thumb4.png"
+              alt="pending-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500"></span>Project: [Mar2025]
+          <span class="text-sm text-500">2025</span>
+        </h2>
+        <p class="text-xs">
+		  Placeholder project description for March 2025.
+        </p>
+        <div class="pt-3">
+          <div class="am-tech-tag">TBD</div>
+        </div>
+        <!-- <div class="mb-1 mt-2 sm:mt-auto text-center sm:text-left">
+          <a
+            href="#"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
   <!-- Project: Feb2025 -->
   <div class="col-12">
     <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
       <!-- Thumbnail Section -->
       <div class="card-thumbnail flex-1">
         <div class="project-image-container">
-          <a href="assets/images/projects/pending-thumb.png" class="popup-link">
+          <a href="assets/images/projects/pending-thumb4.png" class="popup-link">
             <img
-              src="assets/images/projects/pending-thumb.png"
+              src="assets/images/projects/pending-thumb4.png"
               alt="pending-thumb"
               class="w-full h-auto"
             />
@@ -292,9 +435,9 @@ Manila, Philippines
       <!-- Thumbnail Section -->
       <div class="card-thumbnail flex-1">
         <div class="project-image-container">
-          <a href="assets/images/projects/pending-thumb.png" class="popup-link">
+          <a href="assets/images/projects/pending-thumb4.png" class="popup-link">
             <img
-              src="assets/images/projects/pending-thumb.png"
+              src="assets/images/projects/pending-thumb4.png"
               alt="pending-thumb"
               class="w-full h-auto"
             />
