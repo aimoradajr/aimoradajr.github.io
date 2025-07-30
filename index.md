@@ -36,7 +36,7 @@ Manila, Philippines
 			</div> -->
 			<div class="card-content">
 				<h3 class="mt-2 mb-3">Full-Stack Web Development</h3>
-				<p>Expertise in <strong>Angular</strong>, <strong>TypeScript</strong>, <strong>Node.js</strong>, <strong>ExpressJS</strong>, <strong>NestJS</strong>, <strong>PostgreSQL</strong>, and <strong>Liquibase</strong>.</p>
+				<p>Expertise in <strong>Angular</strong>, <strong>TypeScript</strong>, <strong>Node.js</strong>, <strong>ExpressJS</strong>, <strong>NestJS</strong>, <strong>PostgreSQL</strong>, <strong>Supabase</strong>, and <strong>Liquibase</strong>.</p>
 			</div>
 		</div>
 	</div>
@@ -71,7 +71,7 @@ Manila, Philippines
 			</div> -->
 			<div class="card-content">
 				<h3 class="mt-2 mb-3">Frontend Technologies</h3>
-				<p>Proficient in <strong>HTML5</strong>, <strong>JavaScript</strong>, <strong>CSS3</strong>, <strong>Bootstrap</strong>, <strong>Semantic UI</strong>, <strong>PrimeNG</strong>, and <strong>Responsive Web Design</strong>.</p>
+				<p>Proficient in <strong>HTML5</strong>, <strong>JavaScript</strong>, <strong>CSS3</strong>, <strong>Bootstrap</strong>, <strong>Semantic UI</strong>, <strong>PrimeNG</strong>, <strong>Tailwind CSS</strong>, <strong>Ionic Framework</strong>, and <strong>Responsive Web Design</strong>.</p>
 			</div>
 		</div>
 	</div>
@@ -82,7 +82,7 @@ Manila, Philippines
 			</div> -->
 			<div class="card-content">
 				<h3 class="mt-2 mb-3">UI/UX Design</h3>
-				<p>Hands-on experience with <strong>Figma</strong>, <strong>Photoshop</strong>, and <strong>Illustrator</strong>, ensuring intuitive and user-friendly design.</p>
+				<p>Hands-on experience with <strong>Figma</strong>, <strong>Photoshop</strong>, <strong>Illustrator</strong>, and <strong>Midjourney</strong>, ensuring intuitive and user-friendly design.</p>
 			</div>
 		</div>
 	</div>
@@ -93,7 +93,7 @@ Manila, Philippines
 			</div> -->
 			<div class="card-content">
 				<h3 class="mt-2 mb-3">Miscellaneous</h3>
-				<p><strong>WordPress</strong>, <strong>Webflow</strong>, <strong>Ruby on Rails</strong>, <strong>Leaflet</strong>, <strong>Magento</strong>, <strong>AWS</strong>, <strong>Windows Phone</strong>, <strong>SVN</strong>, <strong>ODK</strong>, <strong>Jest</strong>.</p>
+				<p><strong>WordPress</strong>, <strong>Webflow</strong>, <strong>Ruby on Rails</strong>, <strong>Leaflet</strong>, <strong>Magento</strong>, <strong>AWS</strong>, <strong>Capacitor</strong>, <strong>Google Maps API</strong>, <strong>n8n</strong>, <strong>Selenium</strong>, <strong>Windows Phone</strong>, <strong>SVN</strong>, <strong>ODK</strong>.</p>
 			</div>
 		</div>
 	</div>
@@ -246,6 +246,7 @@ Manila, Philippines
           <div class="am-tech-tag" style="color: #3ecf8e; border-color: #3ecf8e">Supabase</div>
           <div class="am-tech-tag-sub">PostgreSQL</div>
           <div class="am-tech-tag-sub" style="color: purple; border-color: purple">Midjourney AI</div>
+          <div class="am-tech-tag-sub" style="color: black; border-color: black">Vercel</div>
         </div>
         <div class="mb-1 mt-2 text-center sm:text-left">
           <a
@@ -470,7 +471,7 @@ Manila, Philippines
           <span class="text-sm text-500">2025</span>
         </h2>
         <p class="text-xs">
-          House Ino is a personal project developed to enhance my web development skills, featuring a Squarespace-based platform that connects families with pet-friendly homes.
+          House Ino is a personal project developed to enhance my web development skills, featuring a Squarespace-based platform that connects families with pet-friendly homes. <em>Note: Squarespace trial has expired, so live demo is no longer available.</em>
         </p>
         <div class="pt-3">
           <div class="am-tech-tag">Squarespace v7.1</div>
@@ -902,11 +903,3 @@ Manila, Philippines
     });
   });
 </script>
-
-```
-
-```
-
-```
-
-```
