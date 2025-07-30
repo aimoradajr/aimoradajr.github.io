@@ -154,7 +154,7 @@ Manila, Philippines
 		</div>
 	</div>
 	<div class="col-12">
-		<a href="assets/files/Ariel-I-Morada-Jr-Resume-2024.pdf" target="_blank" class="neo-brutal-button border-round-lg p-3 py-2 w-min p-1 flex align-items-center bg-white hover-email">
+		<a href="assets/files/Ariel-I-Morada-Jr-Resume-2025.pdf" target="_blank" class="neo-brutal-button border-round-lg p-3 py-2 w-min p-1 flex align-items-center bg-white hover-email">
 			<i class="fas fa-download"></i>
 			<span class="ml-2">My_Resume.pdf</span>
 		</a>
