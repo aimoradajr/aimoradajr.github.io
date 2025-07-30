@@ -442,6 +442,14 @@ Manila, Philippines
           <div class="am-tech-tag-sub">React</div>
         </div>
         <div class="mb-1 mt-2 text-center sm:text-left">
+          <a
+            href="https://comforting-yeot-9e2a93.netlify.app/"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -471,13 +479,14 @@ Manila, Philippines
           <span class="text-sm text-500">2025</span>
         </h2>
         <p class="text-xs">
-          House Ino is a personal project developed to enhance my web development skills, featuring a Squarespace-based platform that connects families with pet-friendly homes. <em>Note: Squarespace trial has expired, so live demo is no longer available.</em>
+          House Ino is a personal project developed to enhance my web development skills, featuring a Squarespace-based platform that connects families with pet-friendly homes.
         </p>
         <div class="pt-3">
           <div class="am-tech-tag">Squarespace v7.1</div>
           <div class="am-tech-tag-sub">Midjourney/Dall-E</div>
         </div>
         <div class="mb-1 mt-2 text-center sm:text-left">
+          <p class="text-xs text-500 italic">Note: Squarespace trial has expired, so live demo is no longer available.</p>
         </div>
       </div>
     </div>
