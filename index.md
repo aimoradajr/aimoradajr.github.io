@@ -171,7 +171,7 @@ Manila, Philippines
       <!-- Thumbnail Section -->
       <div class="card-thumbnail flex-1">
         <div class="project-image-container">
-          <a href="assets/images/projects/openfields/openfields.png" class="popup-link">
+          <a href="assets/images/projects/openfields/openfields.gif" class="popup-link">
             <img
               src="assets/images/projects/openfields/openfields-thumb.png"
               alt="openfields-thumb"
@@ -187,7 +187,7 @@ Manila, Philippines
           <span class="text-sm text-500">2025</span>
         </h2>
         <p class="text-xs">
-		  An interactive pet platform combining AI-generated pet illustrations with artistic themed backgrounds. Users upload pet photos, admins create custom cartoon illustrations using AI, and pets are placed on beautifully crafted scenes like parks and treehouses.
+		  An interactive pet platform combining AI-generated pet illustrations with artistic themed backgrounds. Users upload pet photos, admins create custom cartoon illustrations using AI, and pets are placed on beautifully crafted scenes like parks and treehouses. This project explores the strength of LLMs, with Angular code mostly AI-generated using VS Code and GitHub Copilot (Claude Sonnet 4).
         </p>
         <!-- 
         DETAILED PROJECT DESCRIPTION (HIDDEN - FOR FUTURE POPUP/PAGE):
@@ -233,12 +233,19 @@ Manila, Philippines
         In active development
         -->
         <div class="pt-3">
+          <!-- Frontend Technologies -->
           <div class="am-tech-tag">Angular 18</div>
           <div class="am-tech-tag-sub">TypeScript</div>
           <div class="am-tech-tag-sub">Tailwind CSS</div>
-          <div class="am-tech-tag-sub">Supabase</div>
+          <div class="am-tech-tag-sub" style="color: purple; border-color: purple">Vibe Coding</div>
+          <!-- divider -->
+          <div
+            class="border-top-2 mx-3 mt-1 mb-2 border-gray-400 hidden sm:block"
+          ></div>
+          <!-- Backend Technologies -->
+          <div class="am-tech-tag" style="color: #3ecf8e; border-color: #3ecf8e">Supabase</div>
           <div class="am-tech-tag-sub">PostgreSQL</div>
-          <div class="am-tech-tag-sub">Midjourney AI</div>
+          <div class="am-tech-tag-sub" style="color: purple; border-color: purple">Midjourney AI</div>
         </div>
         <div class="mb-1 mt-2 text-center sm:text-left">
           <a
@@ -356,7 +363,7 @@ Manila, Philippines
     </div>
   </div>
 
-  <!-- Project: Mar2025 -->
+  <!-- Project: FebMar2025 -->
   <div class="col-12">
     <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
       <!-- Thumbnail Section -->
@@ -374,48 +381,7 @@ Manila, Philippines
       <!-- Content Section -->
       <div class="card-content flex-1 p-3 flex flex-column">
         <h2 class="mt-2 mb-1">
-          <span class="text-sm text-500"></span>Project: [Mar2025]
-          <span class="text-sm text-500">2025</span>
-        </h2>
-        <p class="text-xs">
-		  Placeholder project description for March 2025.
-        </p>
-        <div class="pt-3">
-          <div class="am-tech-tag">TBD</div>
-        </div>
-        <!-- <div class="mb-1 mt-2 text-center sm:text-left">
-          <a
-            href="#"
-            target="_blank"
-            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
-          >
-            <span class="mr-2 text-sm">View Project</span>
-            <i class="fas fa-external-link-alt"></i>
-          </a>
-        </div> -->
-      </div>
-    </div>
-  </div>
-
-  <!-- Project: Feb2025 -->
-  <div class="col-12">
-    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
-      <!-- Thumbnail Section -->
-      <div class="card-thumbnail flex-1">
-        <div class="project-image-container">
-          <a href="assets/images/projects/pending-thumb4.png" class="popup-link">
-            <img
-              src="assets/images/projects/pending-thumb4.png"
-              alt="pending-thumb"
-              class="w-full h-auto"
-            />
-          </a>
-        </div>
-      </div>
-      <!-- Content Section -->
-      <div class="card-content flex-1 p-3 flex flex-column">
-        <h2 class="mt-2 mb-1">
-          <span class="text-sm text-500"></span>Project: [Feb2025]
+          <span class="text-sm text-500"></span>Project: [FebMar2025]
           <span class="text-sm text-500">2025</span>
         </h2>
         <p class="text-xs">
