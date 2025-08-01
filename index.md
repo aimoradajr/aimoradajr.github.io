@@ -923,7 +923,7 @@ Manila, Philippines
       <div class="card-content flex-1 p-3 flex flex-column">
         <h2 class="mt-2 mb-1">
           <span class="text-sm text-500"></span>Project: NFCPB (Plant Breeding Management)
-          <span class="text-sm text-500">2024</span>
+          <span class="text-sm text-500">2023</span>
         </h2>
         <p class="text-xs">
           A comprehensive system to manage plant breeding processes from beginning phases to end. Built to streamline and track the entire lifecycle of plant breeding programs for agricultural research and development.
@@ -932,7 +932,7 @@ Manila, Philippines
         DETAILED PROJECT DESCRIPTION (HIDDEN - FOR FUTURE POPUP/PAGE):
         
         Project: NFCPB (Plant Breeding Management System)
-        Year: 2024
+        Year: 2023
         Client: Newfields Consulting Oy
         Role: Full-Stack Developer
         
@@ -1002,14 +1002,70 @@ Manila, Philippines
       <!-- Content Section -->
       <div class="card-content flex-1 p-3 flex flex-column">
         <h2 class="mt-2 mb-1">
-          <span class="text-sm text-500"></span>Project: SJX
-          <span class="text-sm text-500">2024</span>
+          <span class="text-sm text-500"></span>Project: SJX (Plant Breeding Data Analysis)
+          <span class="text-sm text-500">2023</span>
         </h2>
         <p class="text-xs">
-          Newfields project - TBD description.
+          A system integrated into existing data collection systems for plant breeding to better organize collected data and perform advanced analysis. Enhances agricultural research capabilities through sophisticated data management and analytical tools.
         </p>
+        <!-- 
+        DETAILED PROJECT DESCRIPTION (HIDDEN - FOR FUTURE POPUP/PAGE):
+        
+        Project: SJX (Plant Breeding Data Analysis System)
+        Year: 2023
+        Client: Newfields Consulting Oy
+        Role: Full-Stack Developer
+        
+        Project Overview:
+        SJX is an advanced data analysis system designed to integrate seamlessly with existing plant breeding data collection systems. The platform enhances agricultural research capabilities by providing sophisticated tools for organizing, analyzing, and extracting insights from complex breeding data sets.
+        
+        Key Features:
+        1. Data Integration and Organization
+           - Seamless integration with existing data collection systems
+           - Automated data import and synchronization
+           - Advanced data categorization and tagging
+           - Multi-source data consolidation
+        
+        2. Advanced Data Analysis Tools
+           - Statistical analysis and modeling capabilities
+           - Trend analysis and pattern recognition
+           - Comparative analysis across breeding cycles
+           - Performance metrics and KPI tracking
+        
+        3. Breeding Research Enhancement
+           - Genetic data analysis and visualization
+           - Cross-breeding outcome predictions
+           - Yield and quality assessment tools
+           - Research timeline and milestone tracking
+        
+        4. Data Visualization and Reporting
+           - Interactive charts and graphs
+           - Custom report generation
+           - Real-time data dashboards
+           - Export capabilities for research publications
+        
+        Technologies Used:
+        Backend: Express.js (Node.js framework)
+        Database: PostgreSQL
+        Frontend: Angular
+        Cloud Infrastructure: AWS (Amazon Web Services)
+        
+        Technical Highlights:
+        - RESTful API architecture with Express.js
+        - Advanced PostgreSQL queries for complex data analysis
+        - Real-time data processing and visualization
+        - Scalable cloud infrastructure on AWS
+        - Integration-friendly APIs for existing systems
+        - Secure data handling for sensitive research information
+        
+        Impact:
+        Significantly improves the efficiency and accuracy of plant breeding research by providing researchers with powerful analytical tools and organized data management capabilities, leading to faster breeding program outcomes and more informed decision-making.
+        -->
         <div class="pt-3">
-          <div class="am-tech-tag">TBD</div>
+          <div class="am-tech-tag">Express.js</div>
+          <div class="am-tech-tag">Angular</div>
+          <div class="am-tech-tag-sub">PostgreSQL</div>
+          <div class="am-tech-tag-sub">AWS</div>
         </div>
         <!-- <div class="mb-1 mt-2 text-center sm:text-left">
           <a
