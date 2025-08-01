@@ -922,14 +922,53 @@ Manila, Philippines
       <!-- Content Section -->
       <div class="card-content flex-1 p-3 flex flex-column">
         <h2 class="mt-2 mb-1">
-          <span class="text-sm text-500"></span>Project: NFCPB
+          <span class="text-sm text-500"></span>Project: NFCPB (Plant Breeding Management)
           <span class="text-sm text-500">2024</span>
         </h2>
         <p class="text-xs">
-          Newfields project - TBD description.
+          A comprehensive system to manage plant breeding processes from beginning phases to end. Built to streamline and track the entire lifecycle of plant breeding programs for agricultural research and development.
         </p>
+        <!-- 
+        DETAILED PROJECT DESCRIPTION (HIDDEN - FOR FUTURE POPUP/PAGE):
+        
+        Project: NFCPB (Plant Breeding Management System)
+        Year: 2024
+        Client: Newfields Consulting Oy
+        Role: Full-Stack Developer
+        
+        Project Overview:
+        NFCPB is a comprehensive plant breeding management system designed to manage and track plant breeding processes from initial phases through completion. The system provides agricultural researchers and breeding programs with tools to organize, monitor, and analyze breeding cycles, genetic data, and crop development stages.
+        
+        Key Features:
+        - Complete breeding lifecycle management
+        - Phase-by-phase tracking and monitoring
+        - Data collection and analysis tools
+        - Research workflow management
+        - Agricultural data visualization
+        - Multi-user collaboration features
+        
+        Technologies Used:
+        Frontend: Angular, PrimeNG
+        Backend: NestJS (Node.js framework)
+        Database: PostgreSQL
+        Cloud Infrastructure: AWS (Amazon Web Services)
+        
+        Technical Highlights:
+        - Scalable cloud-based architecture hosted on AWS
+        - Real-time data tracking and monitoring
+        - Advanced data visualization for breeding analysis
+        - Multi-phase workflow management
+        - Secure data handling for research information
+        
+        Impact:
+        Enables agricultural research institutions and breeding programs to efficiently manage complex breeding processes, improving research outcomes and accelerating crop development timelines.
+        -->
         <div class="pt-3">
-          <div class="am-tech-tag">TBD</div>
+          <div class="am-tech-tag">Angular</div>
+          <div class="am-tech-tag">NestJS</div>
+          <div class="am-tech-tag">PrimeNG</div>
+          <div class="am-tech-tag-sub">PostgreSQL</div>
+          <div class="am-tech-tag-sub">AWS</div>
         </div>
         <!-- <div class="mb-1 mt-2 text-center sm:text-left">
           <a
