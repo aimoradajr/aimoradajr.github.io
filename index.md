@@ -904,6 +904,64 @@ Manila, Philippines
     </div>
   </div>
 
+  <!-- Project: AI Class Scheduling -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a href="assets/images/projects/ai_scheduling.gif" class="popup-link">
+            <img
+              src="assets/images/projects/ai-scheduling-thumb.png"
+              alt="ai-scheduling-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1" title="AI-Powered Class Scheduling">
+          AI Class Scheduling <span class="text-sm text-500">2024</span>
+        </h2>
+        <p class="text-xs">
+          AI-Powered Class Scheduling uses OpenAI's AI model
+          (<strong>gpt-4o</strong>) to analyze data, resolve conflicts, and
+          optimize schedules for courses, rooms, teachers, and students.
+        </p>
+        <div class="pt-3">
+          <!-- Backend Technologies -->
+          <div class="am-tech-tag">Node.js v20.x</div>
+          <div class="am-tech-tag">Express.js v4.21.1</div>
+          <div class="am-tech-tag" style="color: purple; border-color: purple">
+            OpenAI GPT-4.0
+          </div>
+          <div class="am-tech-tag">AWS Lambda</div>
+          <div class="am-tech-tag" title="Serverless Framework">Serverless</div>
+          <!-- divider -->
+          <div
+            class="border-top-2 mx-3 mt-1 mb-2 border-gray-400 hidden sm:block"
+          ></div>
+          <!-- Frontend Technologies -->
+          <div class="am-tech-tag">Angular v18.1.0</div>
+          <div class="am-tech-tag">Tailwind CSS</div>
+          <div class="am-tech-tag">FullCalendar v6.1.15</div>
+          <div class="am-tech-tag-sub">Stackblitz</div>
+        </div>
+        <div class="mb-1 mt-2 text-center sm:text-left">
+          <a
+            href="https://stackblitz.com/edit/stackblitz-starters-6tidvq?file=src%2Fmain.html"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Project: NFCPB -->
   <div class="col-12">
     <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
@@ -1077,63 +1135,6 @@ Manila, Philippines
             <i class="fas fa-external-link-alt"></i>
           </a>
         </div> -->
-      </div>
-    </div>
-  </div>
-  <!-- Project: AI Class Scheduling -->
-  <div class="col-12">
-    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
-      <!-- Thumbnail Section -->
-      <div class="card-thumbnail flex-1">
-        <div class="project-image-container">
-          <a href="assets/images/projects/ai_scheduling.gif" class="popup-link">
-            <img
-              src="assets/images/projects/ai-scheduling-thumb.png"
-              alt="ai-scheduling-thumb"
-              class="w-full h-auto"
-            />
-          </a>
-        </div>
-      </div>
-      <!-- Content Section -->
-      <div class="card-content flex-1 p-3 flex flex-column">
-        <h2 class="mt-2 mb-1" title="AI-Powered Class Scheduling">
-          AI Class Scheduling <span class="text-sm text-500">2024</span>
-        </h2>
-        <p class="text-xs">
-          AI-Powered Class Scheduling uses OpenAI's AI model
-          (<strong>gpt-4o</strong>) to analyze data, resolve conflicts, and
-          optimize schedules for courses, rooms, teachers, and students.
-        </p>
-        <div class="pt-3">
-          <!-- Backend Technologies -->
-          <div class="am-tech-tag">Node.js v20.x</div>
-          <div class="am-tech-tag">Express.js v4.21.1</div>
-          <div class="am-tech-tag" style="color: purple; border-color: purple">
-            OpenAI GPT-4.0
-          </div>
-          <div class="am-tech-tag">AWS Lambda</div>
-          <div class="am-tech-tag" title="Serverless Framework">Serverless</div>
-          <!-- divider -->
-          <div
-            class="border-top-2 mx-3 mt-1 mb-2 border-gray-400 hidden sm:block"
-          ></div>
-          <!-- Frontend Technologies -->
-          <div class="am-tech-tag">Angular v18.1.0</div>
-          <div class="am-tech-tag">Tailwind CSS</div>
-          <div class="am-tech-tag">FullCalendar v6.1.15</div>
-          <div class="am-tech-tag-sub">Stackblitz</div>
-        </div>
-        <div class="mb-1 mt-2 text-center sm:text-left">
-          <a
-            href="https://stackblitz.com/edit/stackblitz-starters-6tidvq?file=src%2Fmain.html"
-            target="_blank"
-            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
-          >
-            <span class="mr-2 text-sm">View Project</span>
-            <i class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
       </div>
     </div>
   </div>
