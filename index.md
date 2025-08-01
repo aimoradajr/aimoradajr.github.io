@@ -802,6 +802,189 @@ Manila, Philippines
       </div>
     </div>
   </div>
+  <!-- Project: CWR -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a href="assets/images/projects/pending-thumb4.png" class="popup-link">
+            <img
+              src="assets/images/projects/pending-thumb4.png"
+              alt="pending-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500"></span>Project: CWR (Carbon Wise Rice)
+          <span class="text-sm text-500">2024</span>
+        </h2>
+        <p class="text-xs">
+          A system to measure and monitor carbon emissions of farms in the Philippines. Areas are divided into blocks/farms/hubs to enable more collective measurement, aiming to create a carbon credit system for agricultural sustainability.
+        </p>
+        <!-- 
+        DETAILED PROJECT DESCRIPTION (HIDDEN - FOR FUTURE POPUP/PAGE):
+        
+        Project: Carbon Wise Rice (CWR)
+        Year: 2024
+        Client: Newfields Consulting Oy
+        Role: Full-Stack Developer
+        
+        Project Overview:
+        Carbon Wise Rice is a comprehensive system designed to measure and monitor carbon emissions of agricultural farms in the Philippines. The platform enables collective measurement by organizing areas into a hierarchical structure of blocks, farms, and hubs, with the ultimate goal of creating a carbon credit system for agricultural sustainability.
+        
+        System Architecture:
+        - Blocks belong to Farms
+        - Farms belong to Hubs
+        - Users are assigned roles: Farm Owners, Hub Managers, Block Managers
+        
+        Key Features:
+        1. Advanced User Role Management System
+           - AWS-like role creation and management
+           - Customizable permissions and policies per role
+           - Hierarchical access control based on organizational structure
+        
+        2. Drag-and-Drop Form Builder
+           - Customizable form creation tool
+           - Used throughout the system for managing hubs, farms, blocks, and other entities
+           - Dynamic form generation and validation
+        
+        3. Questionnaire/Survey System
+           - Multi-step questionnaire creation
+           - Each step contains forms built with the form builder
+           - Admin-customizable survey forms
+           - Role-based questionnaire submission and access
+        
+        4. Mobile Offline Data Collection
+           - Integration with ODK (Open Data Kit)
+           - Mobile phone data collection capabilities
+           - Offline questionnaire answering support
+           - Synchronized data submission to main system
+        
+        Technologies Used:
+        Frontend: Angular, PrimeNG
+        Backend: NestJS (Node.js framework)
+        Database: PostgreSQL
+        Cloud Infrastructure: AWS (Amazon Web Services)
+        Mobile Integration: ODK (Open Data Kit)
+        
+        Technical Highlights:
+        - Scalable cloud-based architecture hosted on AWS
+        - Role-based access control with fine-grained permissions
+        - Dynamic form generation and management system
+        - Mobile-first data collection with offline capabilities
+        - Real-time data synchronization between mobile and web platforms
+        
+        Impact:
+        Enables Philippine farms to participate in carbon credit markets by providing accurate measurement and monitoring of agricultural carbon emissions at scale.
+        -->
+        <div class="pt-3">
+          <div class="am-tech-tag">Angular</div>
+          <div class="am-tech-tag">NestJS</div>
+          <div class="am-tech-tag">PrimeNG</div>
+          <div class="am-tech-tag-sub">PostgreSQL</div>
+          <div class="am-tech-tag-sub">AWS</div>
+          <div class="am-tech-tag-sub">ODK</div>
+        </div>
+        <!-- <div class="mb-1 mt-2 text-center sm:text-left">
+          <a
+            href="#"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Project: NFCPB -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a href="assets/images/projects/pending-thumb4.png" class="popup-link">
+            <img
+              src="assets/images/projects/pending-thumb4.png"
+              alt="pending-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500"></span>Project: NFCPB
+          <span class="text-sm text-500">2024</span>
+        </h2>
+        <p class="text-xs">
+          Newfields project - TBD description.
+        </p>
+        <div class="pt-3">
+          <div class="am-tech-tag">TBD</div>
+        </div>
+        <!-- <div class="mb-1 mt-2 text-center sm:text-left">
+          <a
+            href="#"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Project: SJX -->
+  <div class="col-12">
+    <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
+      <!-- Thumbnail Section -->
+      <div class="card-thumbnail flex-1">
+        <div class="project-image-container">
+          <a href="assets/images/projects/pending-thumb4.png" class="popup-link">
+            <img
+              src="assets/images/projects/pending-thumb4.png"
+              alt="pending-thumb"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Content Section -->
+      <div class="card-content flex-1 p-3 flex flex-column">
+        <h2 class="mt-2 mb-1">
+          <span class="text-sm text-500"></span>Project: SJX
+          <span class="text-sm text-500">2024</span>
+        </h2>
+        <p class="text-xs">
+          Newfields project - TBD description.
+        </p>
+        <div class="pt-3">
+          <div class="am-tech-tag">TBD</div>
+        </div>
+        <!-- <div class="mb-1 mt-2 text-center sm:text-left">
+          <a
+            href="#"
+            target="_blank"
+            class="neo-brutal-button mt-auto border-round-lg px-2 py-1 w-min bg-white nav-hover-blue white-space-nowrap"
+          >
+            <span class="mr-2 text-sm">View Project</span>
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </div>
   <!-- Project: AI Class Scheduling -->
   <div class="col-12">
     <div class="am-card w-full bg-white mt-0 flex flex-column sm:flex-row">
